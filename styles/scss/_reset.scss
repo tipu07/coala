@@ -1,6 +1,6 @@
 $colors: (
-	"prime_color": #ff136b,
-	"black": #091e42,
+	"prime_color": #b4b4b3,
+	"black": #161a22,
 	"light_black": #033446,
 	"dark": #0d0c10,
 	"light": #fff,
@@ -12,7 +12,7 @@ $colors: (
 	"yellow": #ffcb00,
 	"red": #e71939,
 	"blue": #4378ff,
-	"theme": #ff136b,
+	"theme": #b4b4b3,
 );
 
 :root {
@@ -23,7 +23,7 @@ $colors: (
 	// "green": #19cba6,
 	--button_input_height: 6rem;
 	--font-museo-sans: "Museo Sans", sans-serif;
-	--font-jaymont: "Jaymont", sans-serif;
+	--font-quicksand: "Quicksand", sans-serif;
 	--transition: all ease 0.3s;
 }
 
@@ -143,10 +143,10 @@ h5,
 .h5,
 h6,
 .h6 {
-	font-weight: 600;
+	font-family: var(--font-quicksand);
+	font-weight: 300;
 	line-height: 1.1;
 	margin: 0 0 1rem;
-	font-family: var(--font-jaymont);
 	/* &.subheading {
 		margin-bottom: 2rem;
 	} */

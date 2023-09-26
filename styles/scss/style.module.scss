@@ -19,7 +19,6 @@
 			height: 100%;
 			@include object(contain, left center);
 			@include trans;
-			header &,
 			footer & {
 				@include filter(1);
 			}
@@ -27,7 +26,8 @@
 	}
 	header & {
 		float: left;
-		max-width: 19rem;
+		max-width: 14rem;
+		margin-left: 5rem;
 		// margin: 0.5rem 0 0;
 		@include trans;
 	}
@@ -56,6 +56,16 @@
 	box-shadow: 0 0.5rem 2.5rem rgba(var(--black_rgb), 0.04); */
 	@include trans;
 	z-index: 30;
+	> a {
+		position: absolute;
+		top: 0;
+		right: 0;
+		font-size: 2.4rem;
+		height: 12rem;
+		padding: 0 6rem;
+		border-radius: 0;
+		text-transform: uppercase;
+	}
 }
 
 #nav {
@@ -86,7 +96,7 @@
 	> ul {
 		@include list;
 		@include flex(center);
-		@include gap(1rem 5rem);
+		@include gap(1rem 4rem);
 		-webkit-box-flex: 1;
 		-ms-flex: 1;
 		flex: 1;
@@ -101,8 +111,9 @@
 				position: relative;
 				@include flex(center, center);
 				height: 4rem;
-				color: var(--light);
+				color: var(--black);
 				font-size: 1.8rem;
+				font-family: var(--font-quicksand);
 				text-align: center;
 				white-space: nowrap;
 				@include ipad {
@@ -129,10 +140,14 @@
 
 #banner {
 	margin-top: -8rem;
+	background-size: 0;
 	&::before {
-		content: "";
+		// content: "";
 		@include pos($z: 1);
-		background: var(--black);
+		background-image: inherit;
+		@include bg(contain, right);
+		// background: var(--black);
+		filter: grayscale(1);
 		// opacity: 0.7;
 	}
 	.contain {
@@ -140,21 +155,37 @@
 		z-index: 3;
 	}
 	.wrapper {
-		@include flex(center, center, column);
-		padding: 14rem 0 6rem;
+		@include flex(center);
+		padding: 16rem 0 8rem;
 		.content {
 			width: 100%;
-			max-width: 94rem;
-			color: var(--light);
-			margin: 0 auto 5rem;
+			// max-width: 90rem;
+			max-width: 76rem;
+			// color: var(--light);
+			// margin: 0 auto 5rem;
 			h1 {
 				font-size: 6.4rem;
-				font-weight: 500;
 			}
 			p {
 				font-size: 2rem;
+				font-weight: 200;
 				max-width: 56rem;
-				margin: 3rem auto;
+				margin: 3rem 0;
+			}
+		}
+		.video {
+			position: relative;
+			width: 30rem;
+			min-width: 30rem;
+			height: 18rem;
+			margin-left: auto;
+			border-radius: 10rem;
+			overflow: hidden;
+			> video {
+				@include pos;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
 			}
 		}
 		.image {
@@ -201,11 +232,7 @@
 		p {
 			color: var(--dark_gray);
 		}
-		h4 {
-			font-family: var(--font-museo-sans);
-		}
 	}
-
 	.join_brand {
 		.brand_screen {
 			max-width: 100rem;

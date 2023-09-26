@@ -66,8 +66,8 @@
 
 .toggle {
 	@include flex(center, center);
-	display: none;
-	@include pos($l: null, $r: 2rem, $z: 4);
+	// display: none;
+	@include pos($l: 2rem, $r: null, $z: 4);
 	width: 2rem;
 	height: 1.6rem;
 	background: transparent;
@@ -85,7 +85,7 @@
 		position: absolute;
 		width: inherit;
 		height: 0.2rem;
-		background: var(--light);
+		background: var(--black);
 		@include trans;
 	}
 	&::before {

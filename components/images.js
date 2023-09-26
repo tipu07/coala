@@ -1,5 +1,5 @@
-// export { default as Favicon } from "/public/images/favicon.png"
-export { default as LogoImage } from "/public/images/logo.png"
+export { default as Favicon } from "/public/images/favicon.png"
+export { default as LogoImage } from "/public/images/logo.svg"
 
 export { default as IconAppStore } from "/public/images/app-store.svg"
 export { default as IconPlayStore } from "/public/images/play-store.svg"
@@ -14,6 +14,7 @@ export { default as IconCreative } from "/public/images/icon-creative.svg"
 
 // export { default as PhotoMainBannerVector } from "/public/images/main_banner_vector2.svg"
 export { default as PhotoMainBanner } from "/public/images/austin-distel-wD1LRb9OeEo-unsplash-1500x750.jpg"
+export { default as PhotoHeroBanner } from "/public/images/img_hero-1.png"
 /* export { default as PhotoHelp } from "/public/images/Kia-Car-PNG-HD.png"
 export { default as PhotoMainBanner } from "/public/images/pngimg.com---mercedes_PNG80136.png"
 export { default as PhotoWork } from "/public/images/Kia-Car-PNG-Photos.png"
