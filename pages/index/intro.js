@@ -26,7 +26,7 @@ export default function Intro() {
 							<div className={style.text}>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, iure ducimus, a ad ab earum aperiam dolorum fugit sunt tempora excepturi itaque libero dolorem porro distinctio vitae cum. Reprehenderit, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eos molestiae deserunt, amet molestias, voluptatem cupiditate, magni aliquid sapiente adipisci velit. Eligendi facere id optio aliquam et, dicta dolores unde.</p>
 								<div className={`${style.btn_blk} mt-5`}>
-									<Link href="/contact" className={`${style.site_btn} ${style.round}`}>
+									<Link href="/contact" className={`${style.site_btn} ${style.simple} ${style.round}`}>
 										Let&lsquo;s talk
 									</Link>
 								</div>
