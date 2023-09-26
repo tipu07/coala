@@ -224,14 +224,14 @@
 	.serve_blk {
 		width: 100%;
 		background: var(--light);
-		padding: 3rem;
+		padding: 5rem;
 		border-radius: 2rem;
 		-webkit-box-shadow: rgba(var(--black_rgb), 0.1) 0 1rem 4rem 0;
 		box-shadow: rgba(var(--black_rgb), 0.1) 0 1rem 4rem 0;
 		.ico {
-			width: 6rem;
-			min-width: 6rem;
-			height: 6rem;
+			width: 4rem;
+			min-width: 4rem;
+			height: 4rem;
 			margin-bottom: 2rem;
 			> img {
 				@include filter(0);
