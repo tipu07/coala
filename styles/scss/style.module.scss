@@ -288,6 +288,7 @@
 */
 
 #intro {
+	color: var(--prime_color);
 	padding: 12rem 0 10rem;
 	//
 	margin-bottom: 10rem;
@@ -295,8 +296,9 @@
 		content: "";
 		@include pos($z: 1);
 		// clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
-		background: #dbdbdb;
-		border-radius: 20rem;
+		// background: #dbdbdb;
+		background: var(--black);
+		border-radius: 12rem;
 	}
 	.contain {
 		position: relative;
