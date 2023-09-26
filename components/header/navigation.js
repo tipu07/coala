@@ -30,7 +30,7 @@ export default function Navigation(props) {
 						</Link>
 					</li>
 					<li>
-						<Link href="/contact" className={`${style.site_btn} ${style.md} ${style.round}`}>
+						<Link href="/contact" className={`${style.site_btn} ${style.round}`}>
 							Contact us
 						</Link>
 					</li>

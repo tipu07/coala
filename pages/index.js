@@ -17,8 +17,8 @@ export default function Index() {
 			</Head>
 			<Header />
 			<Banner />
-			<Serve />
-			<Work />
+			{/* <Serve /> */}
+			{/* <Work /> */}
 			<Footer />
 		</>
 	)
