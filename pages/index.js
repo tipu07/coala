@@ -3,9 +3,9 @@ import Head from "next/head"
 import Header from "@/components/header/header"
 import Footer from "@/components/footer"
 import Banner from "./index/banner"
-// import Serve from "./index/serve"
 // import Work from "./index/work"
 import Showcase from "./index/showcase"
+import Serve from "./index/serve"
 
 export default function Index() {
 	return (
@@ -19,7 +19,7 @@ export default function Index() {
 			<Header />
 			<Banner />
 			<Showcase />
-			{/* <Serve /> */}
+			<Serve />
 			{/* <Work /> */}
 			<Footer />
 		</>
