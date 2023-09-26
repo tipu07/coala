@@ -294,7 +294,7 @@
 	margin-bottom: 10rem;
 	&::before {
 		content: "";
-		@include pos($z: 1);
+		@include pos($l: 2rem, $r: 2rem, $z: 1);
 		// clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
 		// background: #dbdbdb;
 		background: var(--black);
