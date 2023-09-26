@@ -213,8 +213,13 @@
 		}
 	}
 	.content {
-		max-width: 66rem;
-		margin: 0 auto 4rem;
+		max-width: 80rem;
+		margin: 0 0 6rem;
+		font-size: 3rem;
+		font-weight: 200;
+		h1 {
+			font-size: 10rem;
+		}
 	}
 	.serve_blk {
 		width: 100%;
@@ -228,9 +233,14 @@
 			min-width: 6rem;
 			height: 6rem;
 			margin-bottom: 2rem;
+			> img {
+				@include filter(0);
+				opacity: 0.1;
+			}
 		}
 		p {
-			color: var(--dark_gray);
+			// color: var(--dark_gray);
+			font-weight: 300;
 		}
 	}
 	.join_brand {
@@ -355,8 +365,6 @@
 	background: var(--black);
 	padding: 10rem 0;
 	border-radius: 10rem;
-	//
-	margin-bottom: 8rem;
 	.content {
 		@include flex(center, space-between);
 		margin-bottom: 8rem;

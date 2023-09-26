@@ -9,8 +9,8 @@ export default function Serve() {
 		<>
 			<section id={style.serve}>
 				<div className={style.contain}>
-					<div className={`${style.content} text-center`}>
-						<h1 className="mb-5">What we&lsquo;ll do</h1>
+					<div className={style.content}>
+						<h1 className="mb-4">What we&lsquo;ll do</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eveniet aut deserunt perspiciatis corrupti repellendus vero repellat voluptatum facere minus aliquam, alias tenetur voluptate nihil rem consequatur possimus porro perferendis.</p>
 					</div>
 					<div className={style.wrapper}>
@@ -19,7 +19,7 @@ export default function Serve() {
 								<div className={style.ico}>
 									<Image width={100} height={100} src={IconBlock} alt="" />
 								</div>
-								<h4>Strategy</h4>
+								<h2>Strategy</h2>
 								<p>By gathering and analyzing data on market trends, consumer behavior, and competition, we can help you make informed decisions about your ecommerce strategy.</p>
 							</div>
 						</div>
@@ -28,7 +28,7 @@ export default function Serve() {
 								<div className={style.ico}>
 									<Image width={100} height={100} src={IconLayers} alt="" />
 								</div>
-								<h4>Marketing</h4>
+								<h2>Marketing</h2>
 								<p>We specialize in creating custom eCommerce stores tailored to your specific needs - customized themes, app integrations, and all the bells and whistles to make your brand stand out.</p>
 							</div>
 						</div>
@@ -37,7 +37,7 @@ export default function Serve() {
 								<div className={style.ico}>
 									<Image width={100} height={100} src={IconCreative} alt="" />
 								</div>
-								<h4>Technology</h4>
+								<h2>Technology</h2>
 								<p>If you really want to level up, our custom web design solutions are where it&lsquo;s at. Your brand is unique, so it goes without saying, your e-commerce experience should be too!</p>
 							</div>
 						</div>
@@ -46,7 +46,7 @@ export default function Serve() {
 								<div className={style.ico}>
 									<Image width={100} height={100} src={IconCreative} alt="" />
 								</div>
-								<h4>E-Commerce</h4>
+								<h2>E-Commerce</h2>
 								<p>Supercharge your online sales with our data-driven eCommerce marketing strategies. We make ecommerce marketing so easy, even your cat could do it (if they had opposable thumbs).</p>
 							</div>
 						</div>
@@ -55,7 +55,7 @@ export default function Serve() {
 								<div className={style.ico}>
 									<Image width={100} height={100} src={IconBlock} alt="" />
 								</div>
-								<h4>Branding</h4>
+								<h2>Branding</h2>
 								<p>Boost the ranking of your website by appearing higher on search engines through top-quality natural SEO and algorithm-driven content built for long-term success.</p>
 							</div>
 						</div>
@@ -64,7 +64,7 @@ export default function Serve() {
 								<div className={style.ico}>
 									<Image width={100} height={100} src={IconLayers} alt="" />
 								</div>
-								<h4>SEO Identity</h4>
+								<h2>SEO Identity</h2>
 								<p>Equip your brand with content that will break through the digital noise and a personalised social media strategy to increase customer retention rates by 77%.</p>
 							</div>
 						</div>
