@@ -1,13 +1,11 @@
 import React from "react"
 import style from "@/styles/scss/web.module.scss"
-import Image from "next/image"
-import { PhotoHeroBanner } from "@/components/images"
 import Link from "next/link"
 
 export default function Banner() {
 	return (
 		<>
-			<section id={style.banner} style={{ backgroundImage: "url(" + PhotoHeroBanner.src + ")" }}>
+			<section id={style.banner}>
 				<div className={style.contain}>
 					<div className={style.wrapper}>
 						<div className={style.content}>
@@ -21,9 +19,12 @@ export default function Banner() {
 							</div>
 						</div>
 						<div className={style.video}>
-							<video muted={true} loop={true} autoPlay={true}>
-								<source src="https://cdn.cuberto.com/cb/showreel/1.mp4" />
+							<video muted={true} loop={true} autoPlay={true} playsInline="playsinline" preload="metadata">
+								<source src="https://cdn.cuberto.com/cb/showreel/1.mp4" type="video/mp4" />
 							</video>
+							{/* <video muted={true} loop={true} autoPlay={true} playsInline="playsinline" preload="metadata">
+								<source src="/videos/1.mp4" type="video/mp4" />
+							</video> */}
 						</div>
 					</div>
 				</div>
