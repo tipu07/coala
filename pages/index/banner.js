@@ -20,8 +20,11 @@ export default function Banner() {
 						</div>
 						<div className={style.video}>
 							<video muted={true} loop={true} autoPlay={true} playsInline="playsinline" preload="metadata">
-								<source src="/videos/1.mp4" type="video/mp4" />
+								<source src="https://cdn.cuberto.com/cb/showreel/1.mp4" type="video/mp4" />
 							</video>
+							{/* <video muted={true} loop={true} autoPlay={true} playsInline="playsinline" preload="metadata">
+								<source src="/videos/1.mp4" type="video/mp4" />
+							</video> */}
 						</div>
 					</div>
 				</div>
