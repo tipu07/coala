@@ -9,9 +9,9 @@ export default function FaqBlock(props) {
 	}
 	return (
 		<>
-			<div class={`${style.faq_blk} ${active ? style.active : ""}`}>
+			<div className={`${style.faq_blk} ${active ? style.active : ""}`}>
 				<h4 onClick={activeHandle}>{heading}</h4>
-				<div class={style.text}>
+				<div className={style.text}>
 					<p>{text}</p>
 				</div>
 			</div>

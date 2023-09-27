@@ -1,6 +1,6 @@
 $colors: (
 	"prime_color": #b4b4b3,
-	"black": #161a22,
+	"black": #2f2f2f,
 	"light_black": #033446,
 	"dark": #0d0c10,
 	"light": #fff,
@@ -20,6 +20,7 @@ $colors: (
 		--#{$color}: #{$value};
 		--#{$color}_rgb: #{red($value)}, #{green($value)}, #{blue($value)};
 	}
+	// "black": #161a22,
 	// "green": #19cba6,
 	--button_input_height: 6rem;
 	--font-museo-sans: "Museo Sans", sans-serif;
@@ -450,9 +451,14 @@ input {
 		}
 	}
 	.slick-dots {
+		display: -webkit-box !important;
+		display: -ms-flexbox !important;
+		display: flex !important;
 		li {
 			button {
-				height: 0.5rem;
+				width: 0.8rem;
+				min-width: 0.8rem;
+				height: 0.8rem;
 				background: var(--dark_gray);
 				border-radius: 50rem;
 			}
@@ -483,9 +489,10 @@ input {
 		}
 		.slick-dots {
 			position: absolute;
-			left: initial;
-			bottom: 2.5rem;
-			margin-bottom: -0.25rem;
+			left: 14rem;
+			right: initial;
+			bottom: -2rem;
+			margin-bottom: 0;
 		}
 	}
 }
