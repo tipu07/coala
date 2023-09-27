@@ -69,37 +69,37 @@ export default function Serve() {
 							</div>
 						</div>
 					</div>
-					<div class={`${style.join_brand} text-center`}>
+					<div className={`${style.join_brand} text-center`}>
 						{/* <p>Join over 2,000,000 teams worldwide that are using SkipTheDealers to get more done.</p> */}
-						<div class={style.ul_outer}>
+						<div className={style.ul_outer}>
 							<ul>
 								<li>
-									<div class={style.brand_img}>
+									<div className={style.brand_img}>
 										<Image width={200} height={200} src={PhotoBrandCoinbase} alt="" />
 									</div>
 								</li>
 								<li>
-									<div class={style.brand_img}>
+									<div className={style.brand_img}>
 										<Image width={200} height={200} src={PhotoBrandJohnDeere} alt="" />
 									</div>
 								</li>
 								<li>
-									<div class={style.brand_img}>
+									<div className={style.brand_img}>
 										<Image width={200} height={200} src={PhotoBrandGrandHyatt} alt="" />
 									</div>
 								</li>
 								<li>
-									<div class={style.brand_img}>
+									<div className={style.brand_img}>
 										<Image width={200} height={200} src={PhotoBrandBlk_google} alt="" />
 									</div>
 								</li>
 								<li>
-									<div class={style.brand_img}>
+									<div className={style.brand_img}>
 										<Image width={200} height={200} src={PhotoBrandVisa} alt="" />
 									</div>
 								</li>
 								<li>
-									<div class={style.brand_img}>
+									<div className={style.brand_img}>
 										<Image width={200} height={200} src={PhotoBrandZoom} alt="" />
 									</div>
 								</li>

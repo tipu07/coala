@@ -3,10 +3,11 @@ import Head from "next/head"
 import Header from "@/components/header/header"
 import Footer from "@/components/footer"
 import Banner from "./index/banner"
-// import Work from "./index/work"
 import Showcase from "./index/showcase"
 import Serve from "./index/serve"
 import Intro from "./index/intro"
+import Reviews from "./index/reviews"
+import Differ from "./index/differ"
 
 export default function Index() {
 	return (
@@ -22,7 +23,8 @@ export default function Index() {
 			<Showcase />
 			<Serve />
 			<Intro />
-			{/* <Work /> */}
+			<Reviews />
+			<Differ />
 			<Footer />
 		</>
 	)

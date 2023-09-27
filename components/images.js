@@ -43,6 +43,7 @@ export { default as PhotoShowcase07 } from "/public/images/showcase_07.jpg"
 export { default as PhotoShowcase08 } from "/public/images/showcase_08.jpg"
 export { default as PhotoShowcase09 } from "/public/images/showcase_09.jpg"
 export { default as PhotoIntro } from "/public/images/home-head.png"
+export { default as PhotoReview } from "/public/images/cover@2x.jpg"
 
 export { default as PhotoUser_01 } from "/public/images/users/01.jpg"
 export { default as PhotoUser_02 } from "/public/images/users/02.jpg"

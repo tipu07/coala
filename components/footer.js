@@ -2,7 +2,7 @@ import React from "react"
 import style from "@/styles/scss/web.module.scss"
 import Image from "next/image"
 import Link from "next/link"
-import { EnvelopeIcon, PhoneIcon, SocialFacebook, SocialInstagram, SocialLinkedin, SocialTwitter } from "./images"
+import { SocialFacebook, SocialInstagram, SocialLinkedin, SocialTwitter } from "./images"
 import Logo from "./logo"
 
 export default function Footer() {
@@ -11,80 +11,92 @@ export default function Footer() {
 			<footer id={style.footer}>
 				<div className={style.contain}>
 					<div className={style.top_blk}>
-						<Logo />
-						<div className="row">
-							<div className="col">
-								<h5>About CoalaStudio</h5>
-								<p>What&lsquo;s behind the boards.</p>
+						<h2>Subscribe to our newsletter</h2>
+						<form action="" method="post">
+							<input type="text" name="" id="" placeholder="Email Address" />
+							<button type="submit" className={style.site_btn}></button>
+						</form>
+					</div>
+					<div className={style.mid_blk}>
+						<div className={style.wrapper}>
+							<div className={style.column}>
+								<Logo />
+								<ul className={style.social_list}>
+									<li>
+										<a href="?" target="_blank">
+											<Image width={100} height={100} src={SocialTwitter} alt="" />
+										</a>
+									</li>
+									<li>
+										<a href="?" target="_blank">
+											<Image width={100} height={100} src={SocialFacebook} alt="" />
+										</a>
+									</li>
+									<li>
+										<a href="?" target="_blank">
+											<Image width={100} height={100} src={SocialLinkedin} alt="" />
+										</a>
+									</li>
+									<li>
+										<a href="?" target="_blank">
+											<Image width={100} height={100} src={SocialInstagram} alt="" />
+										</a>
+									</li>
+								</ul>
 							</div>
-							<div className="col">
-								<h5>Jobs</h5>
-								<p>Learn about open roles on the CoalaStudio team.</p>
+							<div className={style.column}>
+								<h4>Quick Links</h4>
+								<ul className={style.list}>
+									<li>
+										<a href="?">Terms of service</a>
+									</li>
+									<li>
+										<a href="?">Privacy policy</a>
+									</li>
+									<li>
+										<a href="?">Return and Refund Policy</a>
+									</li>
+									<li>
+										<a href="?">Benefits</a>
+									</li>
+									<li>
+										<a href="?">Contact us </a>
+									</li>
+								</ul>
 							</div>
-							<div className="col">
-								<h5>Apps</h5>
-								<p>Download the Studio App for your Desktop or Mobile devices.</p>
+							<div className={style.column}>
+								<h4>Customer Support</h4>
+								<ul className={style.list}>
+									<li>
+										<a href="?">Search</a>
+									</li>
+									<li>
+										<a href="?">Billing terms &amp; condition</a>
+									</li>
+									<li>
+										<a href="?">FAQ</a>
+									</li>
+								</ul>
 							</div>
-							<div className="col">
-								<h5>Contact Us</h5>
-								<p>Need anything? Get in touch and we can help.</p>
+							<div className={style.column}>
+								<h4>Contact Info</h4>
+								<ul className={style.list}>
+									<li>
+										<strong>A.</strong> <span>7 Bell Yard, London, WC2A 2JR, United Kingdom.</span>
+									</li>
+									<li>
+										<strong>P.</strong> <a href="tel:0123 456 7890">0123 456 7890</a>
+									</li>
+									<li>
+										<strong>E.</strong> <a href="mailto:info@wedevs.com">info@wedevs.com</a>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
-					<div className={style.mid_blk}>
-						<ul className={style.mini_list}>
-							<li>
-								<Link href="/">Home</Link>
-							</li>
-							<li>
-								<Link href="/about">About us</Link>
-							</li>
-							<li>
-								<Link href="/contact">Contact us</Link>
-							</li>
-						</ul>
-						<ul className={style.info_list}>
-							<li>
-								<a href="tel:347-919-5222">
-									<Image width={60} height={60} src={PhoneIcon} alt="" />
-									347-919-5222
-								</a>
-							</li>
-							<li>
-								<a href="mailto:info@coalastudio.com">
-									<Image width={60} height={60} src={EnvelopeIcon} alt="" />
-									info@coalastudio.com
-								</a>
-							</li>
-						</ul>
-						<ul className={style.social_list}>
-							<li>
-								<a href="?" target="_blank">
-									<Image width={100} height={100} src={SocialTwitter} alt="" />
-								</a>
-							</li>
-							<li>
-								<a href="?" target="_blank">
-									<Image width={100} height={100} src={SocialFacebook} alt="" />
-								</a>
-							</li>
-							<li>
-								<a href="?" target="_blank">
-									<Image width={100} height={100} src={SocialLinkedin} alt="" />
-								</a>
-							</li>
-							<li>
-								<a href="?" target="_blank">
-									<Image width={100} height={100} src={SocialInstagram} alt="" />
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div className={style.copyright}>
-					<div className={style.contain}>
+					<div className={style.copyright}>
 						<p>
-							Copyrights 2023 <Link href="/">CoalaStudio</Link>. All Rights Reserved.
+							© 2023 <Link href="/">Wedevs + &lt;/&gt;.</Link> All rights reserved.
 						</p>
 					</div>
 				</div>
