@@ -8,6 +8,8 @@ import Serve from "./index/serve"
 import Intro from "./index/intro"
 import Reviews from "./index/reviews"
 import Differ from "./index/differ"
+import Choose from "./index/choose"
+import Instagram from "./index/instagram"
 
 export default function Index() {
 	return (
@@ -25,6 +27,8 @@ export default function Index() {
 			<Intro />
 			<Reviews />
 			<Differ />
+			<Choose />
+			<Instagram />
 			<Footer />
 		</>
 	)
