@@ -11,7 +11,9 @@ export default function Footer() {
 			<footer id={style.footer}>
 				<div className={style.contain}>
 					<div className={style.top_blk}>
-						<h2>Subscribe to our newsletter</h2>
+						<h2>
+							Subscribe to <span>our newsletter</span>
+						</h2>
 						<form action="" method="post">
 							<input type="text" name="" id="" placeholder="Email Address" />
 							<button type="submit" className={style.site_btn}></button>
