@@ -1175,7 +1175,7 @@
 */
 
 #connect {
-	padding: 12rem 0;
+	padding: 10rem 0 12rem;
 	.content {
 		@include flex(center, space-between);
 		margin-bottom: 4rem;
@@ -1195,41 +1195,41 @@
 		}
 	}
 	.wrapper {
-		@include flex($flow: wrap);
-		margin: -1.5rem;
-		> .column {
-			@include flex;
-			width: 33.3334%;
-			padding: 1.5rem;
+		@include flex;
+		> .inner {
+			width: 40rem;
+			min-width: 40rem;
+			margin-right: 5rem;
 		}
 	}
-	.inner {
-		width: 100%;
-		background: var(--light);
-		padding: 6rem 5rem;
-		text-align: center;
-		border-radius: 3rem;
-		-webkit-box-shadow: rgba(var(--black_rgb), 0.1) 0 1rem 4rem 0;
-		box-shadow: rgba(var(--black_rgb), 0.1) 0 1rem 4rem 0;
+	.item {
+		@include flex;
+		margin-bottom: 2rem;
 		.ico {
-			width: 6rem;
-			min-width: 6rem;
-			height: 6rem;
-			margin: 0 auto 2rem;
+			width: 2rem;
+			min-width: 2rem;
+			height: 2rem;
+			margin-top: 0.4rem;
+			margin-right: 2rem;
+		}
+		.txt {
+			-ms-flex-item-align: center;
+			align-self: center;
 		}
 	}
 	.form_wrapper {
-		max-width: 90rem;
+		-webkit-box-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
 		background: var(--black);
 		color: var(--light);
 		padding: 6rem;
-		margin: 6rem auto 0;
 		border-radius: 4rem;
 		h3 {
-			font-size: 6rem;
-			margin-bottom: 3rem;
+			font-size: 4rem;
+			margin-bottom: 2rem;
 			> span {
-				display: block;
+				// display: block;
 				font-weight: 400;
 				font-family: var(--font-museo-sans);
 			}

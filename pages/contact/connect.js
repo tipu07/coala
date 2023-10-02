@@ -15,8 +15,8 @@ export default function Connect() {
 						<p>You are welcome to ask questions by phone or contact us using our contact form. Your message will be sent directly to our team to be in touch with you shortly.</p>
 					</div>
 					<div className={style.wrapper}>
-						<div className={style.column}>
-							<div className={style.inner}>
+						<div className={style.inner}>
+							<div className={style.item}>
 								<div className={style.ico}>
 									<Image width={100} height={100} src={IconMapMarker} alt="" />
 								</div>
@@ -27,9 +27,7 @@ export default function Connect() {
 									</span>
 								</div>
 							</div>
-						</div>
-						<div className={style.column}>
-							<div className={style.inner}>
+							<div className={style.item}>
 								<div className={style.ico}>
 									<Image width={100} height={100} src={IconPhone} alt="" />
 								</div>
@@ -37,9 +35,7 @@ export default function Connect() {
 									<a href="tel:813-523-8165">813-523-8165</a>
 								</div>
 							</div>
-						</div>
-						<div className={style.column}>
-							<div className={style.inner}>
+							<div className={style.item}>
 								<div className={style.ico}>
 									<Image width={100} height={100} src={IconEnvelopeFill} alt="" />
 								</div>
@@ -48,50 +44,50 @@ export default function Connect() {
 								</div>
 							</div>
 						</div>
-					</div>
-					<div className={style.form_wrapper}>
-						<h3 className="text-center">
-							Let&lsquo;s Start <br /> <span>The Conversation</span>
-						</h3>
-						<form action="" method="post">
-							<div className="row">
-								<div className="col-sm-6 col-12">
-									<div className={style.form_blk}>
-										<label htmlFor="">Name</label>
-										<input type="text" name="" id="" placeholder="eg: John Wick" className={style.input} />
+						<div className={style.form_wrapper}>
+							<h3>
+								Let&lsquo;s Start <span>The Conversation</span>
+							</h3>
+							<form action="" method="post">
+								<div className="row">
+									<div className="col-sm-6 col-12">
+										<div className={style.form_blk}>
+											<label htmlFor="">Name</label>
+											<input type="text" name="" id="" placeholder="eg: John Wick" className={style.input} />
+										</div>
+									</div>
+									<div className="col-sm-6 col-12">
+										<div className={style.form_blk}>
+											<label htmlFor="">Phone</label>
+											<input type="text" name="" id="" placeholder="eg: 813-523-8165" className={style.input} />
+										</div>
+									</div>
+									<div className="col-sm-6 col-12">
+										<div className={style.form_blk}>
+											<label htmlFor="">Subject</label>
+											<input type="text" name="" id="" placeholder="eg: Lorem Ipsum Dollar" className={style.input} />
+										</div>
+									</div>
+									<div className="col-sm-6 col-12">
+										<div className={style.form_blk}>
+											<label htmlFor="">Email Address</label>
+											<input type="text" name="" id="" placeholder="eg: sample@gmail.com" className={style.input} />
+										</div>
+									</div>
+									<div className="col-sm-12 col-12">
+										<div className={style.form_blk}>
+											<label htmlFor="">Comments</label>
+											<textarea name="" id="" rows={6} placeholder="Type something here..." className={style.input}></textarea>
+										</div>
 									</div>
 								</div>
-								<div className="col-sm-6 col-12">
-									<div className={style.form_blk}>
-										<label htmlFor="">Phone</label>
-										<input type="text" name="" id="" placeholder="eg: 813-523-8165" className={style.input} />
-									</div>
+								<div className={`${style.btn_blk} justify-content-center mt-5`}>
+									<button type="submit" className={`${style.site_btn} ${style.simple} ${style.round}`}>
+										Submit
+									</button>
 								</div>
-								<div className="col-sm-6 col-12">
-									<div className={style.form_blk}>
-										<label htmlFor="">Subject</label>
-										<input type="text" name="" id="" placeholder="eg: Lorem Ipsum Dollar" className={style.input} />
-									</div>
-								</div>
-								<div className="col-sm-6 col-12">
-									<div className={style.form_blk}>
-										<label htmlFor="">Email Address</label>
-										<input type="text" name="" id="" placeholder="eg: sample@gmail.com" className={style.input} />
-									</div>
-								</div>
-								<div className="col-sm-12 col-12">
-									<div className={style.form_blk}>
-										<label htmlFor="">Comments</label>
-										<textarea name="" id="" rows={6} placeholder="Type something here..." className={style.input}></textarea>
-									</div>
-								</div>
-							</div>
-							<div className={`${style.btn_blk} justify-content-center mt-5`}>
-								<button type="submit" className={`${style.site_btn} ${style.simple} ${style.round}`}>
-									Submit
-								</button>
-							</div>
-						</form>
+							</form>
+						</div>
 					</div>
 				</div>
 			</section>
