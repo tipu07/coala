@@ -1234,9 +1234,14 @@
 				font-family: var(--font-museo-sans);
 			}
 		}
+		label {
+			font-size: 1.4rem;
+		}
 		.input {
 			background: transparent;
 			color: var(--light);
+			font-size: 2rem;
+			font-weight: 200;
 			padding-left: 0;
 			padding-right: 0;
 			border: 0;

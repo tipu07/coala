@@ -51,7 +51,7 @@ export default function Connect() {
 					</div>
 					<div className={style.form_wrapper}>
 						<h3 className="text-center">
-							Let&lsquo;s start <br /> <span>the conversation</span>
+							Let&lsquo;s Start <br /> <span>The Conversation</span>
 						</h3>
 						<form action="" method="post">
 							<div className="row">
