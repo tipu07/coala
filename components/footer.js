@@ -50,19 +50,22 @@ export default function Footer() {
 								<h4>Quick Links</h4>
 								<ul className={style.list}>
 									<li>
-										<a href="?">Terms of service</a>
+										<Link href="/">Home</Link>
 									</li>
 									<li>
-										<a href="?">Privacy policy</a>
+										<Link href="/about">About us</Link>
 									</li>
 									<li>
-										<a href="?">Return and Refund Policy</a>
+										<Link href="/work">Work</Link>
 									</li>
 									<li>
-										<a href="?">Benefits</a>
+										<Link href="/services">Our Services</Link>
 									</li>
 									<li>
-										<a href="?">Contact us </a>
+										<Link href="/faq">FAQ&lsquo;s</Link>
+									</li>
+									<li>
+										<Link href="/contact">Contact us </Link>
 									</li>
 								</ul>
 							</div>
@@ -70,13 +73,13 @@ export default function Footer() {
 								<h4>Customer Support</h4>
 								<ul className={style.list}>
 									<li>
-										<a href="?">Search</a>
+										<Link href="/terms-service">Terms of service</Link>
 									</li>
 									<li>
-										<a href="?">Billing terms &amp; condition</a>
+										<Link href="/privacy-policy">Privacy policy</Link>
 									</li>
 									<li>
-										<a href="?">FAQ</a>
+										<Link href="/refund-policy">Return and Refund Policy</Link>
 									</li>
 								</ul>
 							</div>

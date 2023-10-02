@@ -43,7 +43,6 @@ export default function Agency() {
 								</div>
 								<div className={style.text}>
 									<h2>Transparency</h2>
-									<p>In 2021, ad fraud cost advertisers $65 billion!</p>
 									<p>Digital ad fraud is expected to reach $500 billion by 2025, which would make it the largest criminal enterprise after the drug trade. We help you make the most out of your advertising dollars by ensuring your ads are only shown to potential customers, not bots.</p>
 								</div>
 							</div>
