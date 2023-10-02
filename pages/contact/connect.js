@@ -64,7 +64,7 @@ export default function Connect() {
 								<div className="col-sm-6 col-12">
 									<div className={style.form_blk}>
 										<label htmlFor="">Phone</label>
-										<input type="text" name="" id="" placeholder="eg:johnwick" className={style.input} />
+										<input type="text" name="" id="" placeholder="eg: 813-523-8165" className={style.input} />
 									</div>
 								</div>
 								<div className="col-sm-6 col-12">
