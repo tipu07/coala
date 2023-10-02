@@ -10,7 +10,9 @@ export default function Serve() {
 			<section id={style.serve}>
 				<div className={style.contain}>
 					<div className={style.content}>
-						<h1 className="mb-4">What we&lsquo;ll do</h1>
+						<h1 className="mb-4">
+							What <span>we&lsquo;ll do</span>
+						</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eveniet aut deserunt perspiciatis corrupti repellendus vero repellat voluptatum facere minus aliquam, alias tenetur voluptate nihil rem consequatur possimus porro perferendis.</p>
 					</div>
 					<div className={style.wrapper}>
