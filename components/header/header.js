@@ -3,6 +3,7 @@ import style from "@/styles/scss/web.module.scss"
 // import Navigation from "./navigation"
 import Logo from "../logo"
 import Link from "next/link"
+import Navigation from "./navigation"
 
 export default function Header(props) {
 	// const { pageTitle } = props
@@ -25,6 +26,7 @@ export default function Header(props) {
 					Let&lsquo;s talk
 				</Link>
 			</header>
+			<Navigation navActive={navActive} toggleClick={navToggleHandle} />
 		</>
 	)
 }

@@ -18,6 +18,8 @@ export { default as IconEnvelopeFill } from "/public/images/icon-envelope-fill.s
 // export { default as PhotoMainBannerVector } from "/public/images/main_banner_vector2.svg"
 export { default as PhotoMainBanner } from "/public/images/austin-distel-wD1LRb9OeEo-unsplash-1500x750.jpg"
 export { default as PhotoHeroBanner } from "/public/images/img_hero-1.png"
+export { default as PhotoOurWork } from "/public/images/our_work.jpg"
+export { default as PhotoShadow } from "/public/images/shadow.png"
 /* export { default as PhotoHelp } from "/public/images/Kia-Car-PNG-HD.png"
 export { default as PhotoMainBanner } from "/public/images/pngimg.com---mercedes_PNG80136.png"
 export { default as PhotoWork } from "/public/images/Kia-Car-PNG-Photos.png"

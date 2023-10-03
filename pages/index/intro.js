@@ -10,7 +10,7 @@ export default function Intro() {
 			<section id={style.intro}>
 				<div className={style.contain}>
 					<h1>
-						wedevs <span className="fw_500">+ &lt;/&gt;</span>
+						wedevs <span>+ &lt;/&gt;</span>
 					</h1>
 					<div className={style.content}>
 						<p>We&lsquo;re not your average eCommerce agency - we&lsquo;re tech and marketing geeks who love helping our clients kick a**. Based in Surrey but always on the move, we&lsquo;re rebels at heart with a drive to do better every day.</p>
