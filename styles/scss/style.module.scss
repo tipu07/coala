@@ -30,6 +30,9 @@
 		margin-left: 5rem;
 		// margin: 0.5rem 0 0;
 		@include trans;
+		@include ipad_sm {
+			margin-left: 0;
+		}
 	}
 	footer & {
 		max-width: 16rem;
@@ -63,6 +66,15 @@
 		padding: 0 6rem;
 		border-radius: 0;
 		text-transform: uppercase;
+		@include ipad_sm {
+			display: none;
+		}
+	}
+	.toggle {
+		@include ipad_sm {
+			left: initial;
+			right: 2rem;
+		}
 	}
 }
 
@@ -266,6 +278,13 @@
 	.wrapper {
 		@include flex(center);
 		padding: 18rem 0 10rem;
+		@include ipad_sm {
+			@include flex($flow: wrap);
+			padding: 14rem 0 10rem;
+		}
+		@include mobile_md {
+			padding: 12rem 0 8rem;
+		}
 		.content {
 			width: 100%;
 			// max-width: 90rem;
@@ -274,12 +293,18 @@
 			// margin: 0 auto 5rem;
 			h1 {
 				font-size: 6.4rem;
+				@include mobile_md {
+					font-size: 4.2rem;
+				}
 			}
 			p {
 				font-size: 2rem;
 				font-weight: 200;
 				max-width: 56rem;
 				margin: 3rem 0;
+				@include mobile_md {
+					margin: 2rem 0;
+				}
 			}
 		}
 		.video {
@@ -290,6 +315,15 @@
 			margin-left: auto;
 			border-radius: 20rem;
 			overflow: hidden;
+			@include ipad_sm {
+				width: 100%;
+				min-width: initial;
+				max-width: 40rem;
+				margin: 3rem auto 0;
+			}
+			@include mobile_md {
+				height: 20rem;
+			}
 			> video {
 				@include pos;
 				width: 100%;
@@ -313,6 +347,9 @@
 
 #serve {
 	padding: 12rem 0;
+	@include ipad_sm {
+		padding: 8rem 0;
+	}
 	.wrapper {
 		@include flex($flow: wrap);
 		margin: -1.5rem;
@@ -320,6 +357,12 @@
 			width: 33.333%;
 			padding: 1.5rem;
 			@include flex;
+			@include ipad_sm {
+				width: 50%;
+			}
+			@include mobile {
+				width: 100%;
+			}
 		}
 	}
 	.content {
@@ -327,8 +370,18 @@
 		margin: 0 0 6rem;
 		font-size: 3rem;
 		font-weight: 200;
+		@include ipad_sm {
+			margin: 0 0 4rem;
+			font-size: 2rem;
+		}
 		h1 {
 			font-size: 10rem;
+			@include ipad_sm {
+				font-size: 6rem;
+			}
+			@include mobile_md {
+				font-size: 4rem;
+			}
 			> span {
 				font-weight: 400;
 				font-family: var(--font-museo-sans);
@@ -342,6 +395,9 @@
 		border-radius: 2rem;
 		-webkit-box-shadow: rgba(var(--black_rgb), 0.1) 0 1rem 4rem 0;
 		box-shadow: rgba(var(--black_rgb), 0.1) 0 1rem 4rem 0;
+		@include ipad_sm {
+			padding: 3rem;
+		}
 		.ico {
 			width: 4rem;
 			min-width: 4rem;
@@ -401,13 +457,19 @@
 
 #intro {
 	color: var(--prime_color);
-	padding: 12rem 0 10rem;
+	padding: 12rem 2rem 10rem;
+	@include ipad_sm {
+		padding: 8rem 2rem;
+	}
 	&::before {
 		content: "";
 		@include pos($l: 2rem, $r: 2rem, $z: 1);
 		// background: #dbdbdb;
 		background: var(--black);
 		border-radius: 12rem;
+		@include ipad_sm {
+			border-radius: 6rem;
+		}
 	}
 	.contain {
 		position: relative;
@@ -416,6 +478,15 @@
 	h1 {
 		font-size: 16rem;
 		margin-bottom: 3rem;
+		@include ipad {
+			font-size: 12rem;
+		}
+		@include ipad_sm {
+			font-size: 6rem;
+		}
+		@include mobile_md {
+			font-size: 4rem;
+		}
 		> span {
 			color: var(--light);
 			font-weight: 400;
@@ -427,19 +498,39 @@
 		@include gap(0 10rem);
 		font-size: 2.4rem;
 		margin-bottom: 6rem;
+		@include ipad_sm {
+			display: block;
+		}
+		@include mobile_md {
+			font-size: 1.8rem;
+			margin-bottom: 4rem;
+		}
 	}
 	.wrapper {
 		@include flex(center, space-evenly);
 		@include gap(0 6rem);
+		@include ipad_sm {
+			display: block;
+		}
 		> .column {
 			width: 30%;
+			@include ipad_sm {
+				width: 100%;
+			}
 		}
 	}
 	.image {
 		max-width: 50rem;
+		@include ipad_sm {
+			max-width: 40rem;
+			margin-bottom: 3rem;
+		}
 	}
 	& + #reviews {
 		margin-top: 12rem;
+		@include ipad_sm {
+			margin-top: 8rem;
+		}
 	}
 }
 
@@ -454,8 +545,19 @@
 	padding: 12rem 0;
 	border-radius: 12rem;
 	overflow: hidden;
+	@include ipad_sm {
+		padding: 8rem 0;
+		border-radius: 6rem;
+	}
 	.image {
 		@include pos($r: 50%);
+		@include ipad_sm {
+			position: relative;
+			right: 0;
+			padding-bottom: 60%;
+			margin-top: -8rem;
+			margin-bottom: 6rem;
+		}
 		> img {
 			@include object($fill: true);
 		}
@@ -474,18 +576,34 @@
 		width: 50%;
 		margin-left: auto;
 		padding-left: 5rem;
+		@include ipad_sm {
+			width: 100%;
+			margin: auto;
+			padding: 0;
+		}
 		.content {
 			margin-bottom: 8rem;
+			@include ipad_sm {
+				margin-bottom: 3rem;
+			}
 			h2 {
 				font-size: 10rem;
+				@include ipad_sm {
+					font-size: 6rem;
+				}
 				> em {
 					display: block;
-					font-size: 10rem;
 					font-weight: 400;
 					font-family: var(--font-museo-sans);
 					-webkit-transform: skewX(-15deg);
 					-ms-transform: skewX(-15deg);
 					transform: skewX(-15deg);
+					@include ipad {
+						font-size: 9rem;
+					}
+					@include mobile_md {
+						font-size: inherit;
+					}
 				}
 			}
 		}
@@ -502,6 +620,9 @@
 			border-radius: 3rem;
 			-webkit-box-shadow: 0 0.5rem 1.5rem rgba(var(--black_rgb), 0.08);
 			box-shadow: 0 0.5rem 1.5rem rgba(var(--black_rgb), 0.08);
+			@include mobile_md {
+				padding: 4rem 3rem;
+			}
 			.text {
 				margin: 3rem 0;
 			}
@@ -509,6 +630,9 @@
 				@include flex(flex-start, space-between);
 				width: 100%;
 				margin: auto 0 -8rem;
+				@include mobile_md {
+					margin-bottom: -7rem;
+				}
 			}
 			.ico {
 				width: 6rem;
@@ -519,9 +643,16 @@
 		.slick_reviews {
 			margin-left: -15rem;
 			margin-bottom: 6rem;
+			@include ipad_sm {
+				margin: 0;
+			}
 			> div {
 				margin: -4rem -2rem;
 				padding: 3rem 1rem;
+				@include mobile_md {
+					margin: -4rem -1rem;
+					padding: 3rem 0;
+				}
 				> div {
 					@include flex;
 					> div {
@@ -543,11 +674,26 @@
 
 #differ {
 	padding: 12rem 0;
+	@include ipad_sm {
+		padding: 8rem 0;
+	}
 	.content {
 		max-width: 100rem;
 		margin-bottom: 8rem;
+		@include ipad_sm {
+			margin-bottom: 3rem;
+		}
 		h2 {
 			font-size: 14rem;
+			@include ipad {
+				font-size: 12rem;
+			}
+			@include ipad_sm {
+				font-size: 6rem;
+			}
+			@include mobile_md {
+				font-size: 4.4rem;
+			}
 			> span {
 				@include flex;
 				font-weight: 400;
@@ -564,6 +710,9 @@
 			max-width: 68rem;
 			font-size: 3rem;
 			font-weight: 300;
+			@include ipad_sm {
+				font-size: 2rem;
+			}
 		}
 	}
 	.wrapper {
@@ -572,8 +721,17 @@
 		> .column {
 			width: 25%;
 			padding: 1.5rem;
+			@include ipad_sm {
+				width: 50%;
+			}
+			@include mobile_md {
+				width: 100%;
+			}
 			&:nth-child(1) {
 				width: 50%;
+				@include ipad_sm {
+					width: 100%;
+				}
 			}
 		}
 	}
@@ -583,6 +741,9 @@
 		padding-bottom: 160%;
 		border-radius: 4rem;
 		overflow: hidden;
+		@include mobile_md {
+			padding-bottom: 80%;
+		}
 		> img {
 			@include object($fill: true);
 		}
@@ -591,6 +752,9 @@
 		@include flex(center);
 		.image {
 			padding-bottom: 90%;
+			@include mobile_md {
+				padding-bottom: 120%;
+			}
 		}
 	}
 	.inner {
@@ -602,6 +766,9 @@
 		-webkit-box-shadow: rgba(var(--black_rgb), 0.1) 0 1rem 4rem 0;
 		box-shadow: rgba(var(--black_rgb), 0.1) 0 1rem 4rem 0;
 		z-index: 2;
+		@include mobile_md {
+			border-radius: 2rem;
+		}
 	}
 	.list {
 		@include list;
@@ -739,13 +906,28 @@
 	background: var(--black);
 	padding: 10rem 0;
 	border-radius: 10rem;
+	@include ipad_sm {
+		padding: 8rem 0;
+		border-radius: 6rem;
+	}
 	.content {
 		@include flex(center, space-between);
 		margin-bottom: 8rem;
+		@include mobile_md {
+			display: block;
+			margin-bottom: 4rem;
+		}
 		h2 {
 			@include flex;
 			color: var(--light);
 			font-size: 10rem;
+			@include ipad_sm {
+				display: block;
+				font-size: 6rem;
+			}
+			@include mobile_md {
+				margin-bottom: 2rem $i;
+			}
 			> em {
 				font-weight: 400;
 				font-family: var(--font-museo-sans);
@@ -753,19 +935,35 @@
 				-webkit-transform: skewX(-15deg);
 				-ms-transform: skewX(-15deg);
 				transform: skewX(-15deg);
+				@include ipad_sm {
+					display: block;
+					margin: 0;
+				}
 			}
 		}
 	}
 	.wrapper {
 		@include flex;
 		@include gap(0 3rem);
+		@include ipad_sm {
+			display: block;
+		}
 		> .column {
 			width: 33.3334%;
+			@include ipad_sm {
+				width: 100%;
+			}
 			&:nth-child(2) {
 				padding-top: 10rem;
+				@include ipad_sm {
+					padding-top: 3rem;
+				}
 			}
 			&:nth-child(3) {
 				padding-top: 30rem;
+				@include ipad_sm {
+					padding-top: 3rem;
+				}
 			}
 		}
 	}
@@ -828,11 +1026,20 @@
 
 #choose {
 	padding: 12rem 0;
+	@include ipad_sm {
+		padding: 8rem 0;
+	}
 	&::before {
 		content: "";
 		@include pos($l: 4rem, $z: 1);
 		background: var(--black);
 		border-radius: 12rem;
+		@include ipad {
+			left: 0;
+		}
+		@include ipad_sm {
+			border-radius: 6rem;
+		}
 	}
 	.contain {
 		position: relative;
@@ -840,24 +1047,49 @@
 	}
 	.wrapper {
 		@include flex;
+		@include ipad_sm {
+			display: block;
+		}
 		.content {
 			width: 60rem;
 			min-width: 60rem;
+			@include ipad_sm {
+				width: auto;
+				min-width: initial;
+				margin-bottom: 3rem;
+			}
 		}
 		.outer {
 			width: calc(100% - 60rem);
 			padding-left: 6rem;
+			@include ipad_sm {
+				width: 100%;
+				padding-left: 0;
+			}
 		}
 		h2 {
 			color: var(--light);
 			font-size: 10rem;
 			margin-bottom: 5rem;
 			white-space: nowrap;
+			@include ipad_sm {
+				font-size: 6rem;
+				margin-bottom: 3rem;
+			}
+			@include mobile_md {
+				font-size: 4rem;
+			}
 			> span {
 				display: block;
 				font-size: 14rem;
 				font-weight: 400;
 				font-family: var(--font-museo-sans);
+				@include ipad_sm {
+					font-size: 8rem;
+				}
+				@include mobile_md {
+					font-size: 6rem;
+				}
 			}
 		}
 	}
@@ -866,6 +1098,10 @@
 		background: var(--light);
 		padding: 5rem;
 		border-radius: 4rem;
+		@include ipad_sm {
+			padding: 3rem;
+			border-radius: 3rem;
+		}
 		.image {
 			position: relative;
 			width: 30rem;
@@ -874,6 +1110,12 @@
 			margin-bottom: 4rem;
 			border-radius: 12rem;
 			overflow: hidden;
+			@include mobile_md {
+				width: 100%;
+				min-width: initial;
+				max-width: 30rem;
+				height: 14rem;
+			}
 			> img {
 				@include object(cover);
 			}
@@ -881,11 +1123,17 @@
 		.text {
 			h3 {
 				font-size: 3.8rem;
+				@include mobile_md {
+					font-size: 2.8rem;
+				}
 			}
 			p {
 				max-width: 30rem;
 				font-size: 2rem;
 				font-weight: 300;
+				@include mobile_md {
+					font-size: 1.8rem;
+				}
 			}
 		}
 	}
@@ -894,6 +1142,13 @@
 			margin-right: -50rem;
 			// margin-left: -15rem;
 			margin-bottom: 6rem;
+			@include ipad_sm {
+				margin: 0;
+				margin-right: -30rem;
+			}
+			@include mobile_md {
+				margin-right: -28rem;
+			}
 			> div {
 				margin: -4rem -2rem;
 				padding: 3rem 1.5rem;
@@ -918,18 +1173,35 @@
 
 #instagram {
 	padding: 12rem 0;
+	@include ipad_sm {
+		padding: 8rem 0;
+	}
 	.content {
 		text-align: center;
 		max-width: 80rem;
 		margin: 0 auto 6rem;
+		@include ipad_sm {
+			margin-bottom: 3rem;
+		}
 		h2 {
 			font-size: 14rem;
 			margin-bottom: 3rem;
+			@include ipad_sm {
+				font-size: 6rem;
+				margin-bottom: 2rem;
+			}
+			@include mobile_md {
+				font-size: 4rem;
+			}
 		}
 		p {
 			font-size: 3rem;
 			font-weight: 300;
 			padding: 0 10rem;
+			@include ipad_sm {
+				font-size: 2rem;
+				padding: 0 2rem;
+			}
 		}
 	}
 	.wrapper {
@@ -991,12 +1263,25 @@
 	padding: 12rem 0 0;
 	margin-top: auto;
 	overflow: hidden;
+	@include ipad_sm {
+		padding: 8rem 0 0;
+	}
 	.top_blk {
 		margin-bottom: 8rem;
+		@include ipad_sm {
+			margin-bottom: 6rem;
+		}
 		h2 {
 			max-width: 80rem;
 			font-size: 12rem;
 			margin-bottom: 3rem;
+			@include ipad_sm {
+				font-size: 6rem;
+				margin-bottom: 2rem;
+			}
+			@include mobile_md {
+				font-size: 4rem;
+			}
 			> span {
 				font-weight: 400;
 				font-family: var(--font-museo-sans);
@@ -1030,6 +1315,9 @@
 		padding: 8rem 0 6rem;
 		border-top: 0.1rem solid rgba(var(--light_rgb), 0.2);
 		border-bottom: 0.1rem solid rgba(var(--light_rgb), 0.2);
+		@include ipad_sm {
+			padding: 6rem 0 4rem;
+		}
 	}
 	a {
 		color: var(--light_gray);
@@ -1077,17 +1365,26 @@
 			padding: 1.5rem;
 			&:nth-child(1) {
 				width: 34%;
+				@include ipad_sm {
+					width: 100%;
+				}
 			}
 			&:nth-child(2),
 			&:nth-child(3),
 			&:nth-child(4) {
 				width: 22%;
+				@include ipad_sm {
+					width: 50%;
+				}
 			}
 		}
 	}
 	.copyright {
 		padding: 5rem 0;
 		text-align: center;
+		@include ipad_sm {
+			padding: 4rem 0;
+		}
 		p {
 			margin: 0;
 			> a {
