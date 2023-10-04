@@ -73,7 +73,7 @@ export default function Footer() {
 								<h4>Customer Support</h4>
 								<ul className={style.list}>
 									<li>
-										<Link href="/terms-service">Terms of service</Link>
+										<Link href="/terms-conditions">Terms and conditions</Link>
 									</li>
 									<li>
 										<Link href="/privacy-policy">Privacy policy</Link>
