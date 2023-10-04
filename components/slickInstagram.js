@@ -15,9 +15,21 @@ export default function SlickInstagram() {
 		slidesToScroll: 1,
 		responsive: [
 			{
-				breakpoint: 480,
+				breakpoint: 992,
 				settings: {
-					slidesToShow: 1,
+					slidesToShow: 4,
+				},
+			},
+			{
+				breakpoint: 769,
+				settings: {
+					slidesToShow: 3,
+				},
+			},
+			{
+				breakpoint: 580,
+				settings: {
+					slidesToShow: 2,
 				},
 			},
 		],

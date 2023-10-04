@@ -493,6 +493,9 @@ input {
 			right: initial;
 			bottom: -2rem;
 			margin-bottom: 0;
+			@include ipad_sm {
+				bottom: 0;
+			}
 		}
 	}
 }
