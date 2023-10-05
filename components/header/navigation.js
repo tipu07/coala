@@ -46,27 +46,27 @@ export default function Navigation(props) {
 					<nav>
 						<ul id={style.nav_list}>
 							<li>
-								<Link href="/" className={router.pathname === "/" ? style.active : ""}>
+								<Link href="/" className={router.pathname === "/" ? style.active : ""} onClick={toggleClick}>
 									Home
 								</Link>
 							</li>
 							<li>
-								<Link href="/about" className={router.pathname === "/about" ? style.active : ""}>
+								<Link href="/about" className={router.pathname === "/about" ? style.active : ""} onClick={toggleClick}>
 									About us
 								</Link>
 							</li>
 							<li>
-								<Link href="/work" className={router.pathname === "/work" ? style.active : ""}>
+								<Link href="/work" className={router.pathname === "/work" ? style.active : ""} onClick={toggleClick}>
 									Work
 								</Link>
 							</li>
 							<li>
-								<Link href="/services" className={router.pathname === "/services" ? style.active : ""}>
+								<Link href="/services" className={router.pathname === "/services" ? style.active : ""} onClick={toggleClick}>
 									Services
 								</Link>
 							</li>
 							<li>
-								<Link href="/contact" className={router.pathname === "/contact" ? style.active : ""}>
+								<Link href="/contact" className={router.pathname === "/contact" ? style.active : ""} onClick={toggleClick}>
 									Contact us
 								</Link>
 							</li>
