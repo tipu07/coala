@@ -110,7 +110,7 @@ export default function Serve() {
 					</div>
 					<div className={`${style.btn_blk} justify-content-center mt-5`}>
 						<Link href="/services" className={`${style.site_btn} ${style.round}`}>
-							Learn More
+							Explore More
 						</Link>
 					</div>
 				</div>

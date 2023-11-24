@@ -91,25 +91,19 @@
 		background: var(--light);
 		padding: 3rem 1.5rem;
 		border-top: 0.1rem solid var(--light_gray);
-		opacity: 0;
-		visibility: hidden;
-		pointer-events: none;
+		@include visible(hide);
 		overflow: hidden;
 		overflow-y: auto;
 		@include trans;
 	}
 	&.active {
-		opacity: 1;
-		visibility: visible;
-		pointer-events: all;
+		@include visible(show);
 	}
 	> ul {
 		@include list;
 		@include flex(center);
 		@include gap(1rem 4rem);
-		-webkit-box-flex: 1;
-		-ms-flex: 1;
-		flex: 1;
+		@include flex_grow(1);
 		@include ipad {
 			-webkit-box-orient: vertical;
 			-webkit-box-direction: normal;
@@ -149,30 +143,21 @@
 	right: 0;
 	bottom: 0;
 	background: var(--light);
-	opacity: 0;
-	visibility: hidden;
-	pointer-events: none;
-	// transition: all 0.3s 0.1s;
+	@include visible(hide);
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 	z-index: 100;
 	&.active {
-		opacity: 1;
-		visibility: visible;
-		pointer-events: all;
+		@include visible(show);
 		#nav_list {
 			> li {
 				opacity: 1;
-				-webkit-transform: translateY(0);
-				-ms-transform: translateY(0);
-				transform: translateY(0);
+				@include transform(translateY(0));
 			}
 		}
 		.social_list {
 			opacity: 1;
-			-webkit-transform: translateY(0);
-			-ms-transform: translateY(0);
-			transform: translateY(0);
+			@include transform(translateY(0));
 		}
 	}
 	#wrapper {
@@ -193,9 +178,7 @@
 			@include flex(center, center);
 			margin-bottom: 1rem;
 			opacity: 0;
-			-webkit-transform: translateY(5rem);
-			-ms-transform: translateY(5rem);
-			transform: translateY(5rem);
+			@include transform(translateY(5rem));
 			&:nth-child(1) {
 				-webkit-transition: all 0.3s 0.2s;
 				transition: all 0.3s 0.2s;
@@ -226,9 +209,7 @@
 		@include flex(center, center);
 		@include gap(1rem);
 		opacity: 0;
-		-webkit-transform: translateY(5rem);
-		-ms-transform: translateY(5rem);
-		transform: translateY(5rem);
+		@include transform(translateY(5rem));
 		-webkit-transition: all 0.3s 0.8s;
 		transition: all 0.3s 0.8s;
 		> li {
@@ -303,6 +284,10 @@
 				@include mobile_md {
 					font-size: 4.2rem;
 				}
+				> span {
+					font-family: var(--font-museo-sans);
+					font-weight: 400;
+				}
 			}
 			p {
 				font-size: 2rem;
@@ -316,9 +301,12 @@
 		}
 		.video {
 			position: relative;
-			width: 40rem;
+			/* width: 40rem;
 			min-width: 40rem;
-			height: 26rem;
+			height: 26rem; */
+			width: 60rem;
+			min-width: 60rem;
+			height: 36rem;
 			margin-left: auto;
 			border-radius: 20rem;
 			overflow: hidden;
@@ -602,9 +590,7 @@
 					display: block;
 					font-weight: 400;
 					font-family: var(--font-museo-sans);
-					-webkit-transform: skewX(-15deg);
-					-ms-transform: skewX(-15deg);
-					transform: skewX(-15deg);
+					@include transform(skewX(-15deg));
 					@include ipad {
 						font-size: 9rem;
 					}
@@ -707,9 +693,7 @@
 				font-family: var(--font-museo-sans);
 				em {
 					margin-left: 2rem;
-					-webkit-transform: skewX(-15deg);
-					-ms-transform: skewX(-15deg);
-					transform: skewX(-15deg);
+					@include transform(skewX(-15deg));
 				}
 			}
 		}
@@ -810,9 +794,7 @@
 			z-index: 1;
 		}
 		.text {
-			-webkit-box-flex: 1;
-			-ms-flex: 1;
-			flex: 1;
+			@include flex_grow(1);
 			background: var(--light);
 			padding: 2rem;
 			padding-left: 3.5rem;
@@ -946,9 +928,7 @@
 				font-weight: 400;
 				font-family: var(--font-museo-sans);
 				margin-left: 3rem;
-				-webkit-transform: skewX(-15deg);
-				-ms-transform: skewX(-15deg);
-				transform: skewX(-15deg);
+				@include transform(skewX(-15deg));
 				@include ipad_sm {
 					display: block;
 					margin: 0;
@@ -1009,9 +989,7 @@
 				overflow: hidden;
 				&:hover {
 					> img {
-						-webkit-transform: scale(1.1);
-						-ms-transform: scale(1.1);
-						transform: scale(1.1);
+						@include transform(scale(1.1));
 					}
 					.overlay {
 						background: rgba(var(--black_rgb), 0.3);
@@ -1044,6 +1022,12 @@
 					line-height: 1.4;
 				}
 			}
+		}
+	}
+	& + #reviews {
+		margin-top: 12rem;
+		@include ipad_sm {
+			margin-top: 8rem;
 		}
 	}
 }
@@ -1339,9 +1323,7 @@
 				height: 7rem;
 			}
 			input {
-				-webkit-box-flex: 1;
-				-ms-flex: 1 1;
-				flex: 1 1;
+				@include flex_grow(1 1);
 				background: transparent;
 				font-size: 2rem;
 				padding: 0 2rem;
@@ -1527,9 +1509,7 @@
 		&:hover {
 			.image {
 				> img {
-					-webkit-transform: scale(1.1);
-					-ms-transform: scale(1.1);
-					transform: scale(1.1);
+					@include transform(scale(1.1));
 				}
 			}
 		}
@@ -1592,9 +1572,7 @@
 			display: block;
 		}
 		.content {
-			-webkit-box-flex: 1;
-			-ms-flex: 1;
-			flex: 1;
+			@include flex_grow(1);
 			h2 {
 				font-size: 10rem;
 				@include ipad_sm {
@@ -1607,9 +1585,7 @@
 					display: block;
 					font-weight: 400;
 					font-family: var(--font-museo-sans);
-					-webkit-transform: skewX(-15deg);
-					-ms-transform: skewX(-15deg);
-					transform: skewX(-15deg);
+					@include transform(skewX(-15deg));
 				}
 			}
 			p {
@@ -1806,9 +1782,7 @@
 		}
 	}
 	.form_wrapper {
-		-webkit-box-flex: 1;
-		-ms-flex: 1;
-		flex: 1;
+		@include flex_grow(1);
 		background: var(--black);
 		color: var(--light);
 		padding: 6rem;
@@ -2231,6 +2205,51 @@
 		@include ipad_sm {
 			padding: 4rem 3rem;
 			border-radius: 4rem;
+		}
+	}
+}
+
+/*
+|----------------------------------------------------------------------
+|		Studio
+|----------------------------------------------------------------------
+*/
+
+#studio {
+	background: var(--black);
+	padding: 14rem 0;
+	border-radius: 10rem;
+	.contain {
+		position: relative;
+		z-index: 3;
+	}
+	.content {
+		max-width: 72rem;
+		color: var(--light);
+		h1 {
+			@include flex;
+			font-size: 13rem;
+			font-family: var(--font-museo-sans);
+			span {
+				font-weight: 400;
+				margin-left: 3rem;
+				@include transform(skewX(-15deg));
+			}
+			& + p {
+				font-size: 7rem;
+			}
+		}
+	}
+	.vid_blk {
+		@include pos($l: 50%, $z: 1);
+		filter: brightness(0.9) invert(1) grayscale(1);
+		overflow: hidden;
+		> video {
+			@include pos;
+			width: 100%;
+			height: 100%;
+			-o-object-fit: cover;
+			object-fit: cover;
 		}
 	}
 }
