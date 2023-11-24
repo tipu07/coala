@@ -87,7 +87,10 @@ export default function Footer() {
 								<h4>Contact Info</h4>
 								<ul className={style.list}>
 									<li>
-										<strong>A.</strong> <span>7 Bell Yard, London, WC2A 2JR, United Kingdom.</span>
+										<strong>A.</strong>{" "}
+										<span>
+											7 Bell Yard, London, <br /> WC2A 2JR, United Kingdom.
+										</span>
 									</li>
 									<li>
 										<strong>P.</strong> <a href="tel:0123 456 7890">0123 456 7890</a>

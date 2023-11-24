@@ -10,6 +10,7 @@ import Reviews from "./index/reviews"
 import Differ from "./index/differ"
 import Choose from "./index/choose"
 import Instagram from "./index/instagram"
+import Studio from "./index/studio"
 
 export default function Index() {
 	return (
@@ -22,9 +23,10 @@ export default function Index() {
 			</Head>
 			<Header />
 			<Banner />
-			<Showcase />
+			<Studio />
 			<Serve />
-			<Intro />
+			{/* <Intro /> */}
+			<Showcase />
 			<Reviews />
 			<Differ />
 			<Choose />

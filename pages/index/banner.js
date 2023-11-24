@@ -10,7 +10,9 @@ export default function Banner() {
 					<div className={style.wrapper}>
 						<div className={style.content}>
 							{/* <h1>We craft beautifully useful marketing and digital products that grow businesses.</h1> */}
-							<h1>We craft digital & design products that grow businesses.</h1>
+							<h1>
+								We craft <span>digital & design</span> products that grow businesses.
+							</h1>
 							<p>High quality web design, seo and marketing services for all types of small businesses and corporations.</p>
 							<div className={style.btn_blk}>
 								<Link href="/contact" className={`${style.site_btn} ${style.round}`}>

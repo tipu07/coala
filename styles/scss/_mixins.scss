@@ -192,9 +192,57 @@ $cross_circle: url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www
 	overflow: hidden;
 }
 
-@mixin trans {
-	-webkit-transition: var(--transition);
-	transition: var(--transition);
+@mixin trans($val: all ease 0.3s) {
+	@if $val == none {
+		-webkit-transition: none;
+		transition: none;
+	} @else {
+		-webkit-transition: $val;
+		transition: $val;
+	}
+}
+
+@mixin visible($val: show) {
+	@if $val == hide {
+		opacity: 0;
+		visibility: hidden;
+		pointer-events: none;
+	} @else {
+		opacity: 1;
+		visibility: visible;
+		pointer-events: auto;
+	}
+}
+
+@mixin shadow($val) {
+	@if $val == none {
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	} @else {
+		-webkit-box-shadow: $val;
+		box-shadow: $val;
+	}
+}
+
+@mixin input_height {
+	height: 5rem;
+}
+
+@mixin gap($num: null) {
+	gap: $num;
+	grid-gap: $num;
+}
+
+@mixin transform($transform: null) {
+	-webkit-transform: $transform;
+	-ms-transform: $transform;
+	transform: $transform;
+}
+
+@mixin flex_grow($flex: null) {
+	-webkit-box-flex: $flex;
+	-ms-flex: $flex;
+	flex: $flex;
 }
 
 @mixin gap($num: null) {
@@ -204,8 +252,10 @@ $cross_circle: url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www
 
 @mixin filter($num) {
 	@if $num == none {
+		-webkit-filter: none;
 		filter: none;
 	} @else {
+		-webkit-filter: brightness(0) invert($num);
 		filter: brightness(0) invert($num);
 	}
 }
