@@ -34,7 +34,7 @@ export default function Terms() {
 						<h4>10. Governing Law:</h4>
 						<p>These terms are governed by the laws of [Your Jurisdiction]. Any disputes will be resolved through arbitration in accordance with the rules of the [Arbitration Association].</p>
 						<p>&nbsp;</p>
-						<p>By using Wedevs's web services and development solutions, you acknowledge that you have read, understood, and agreed to these terms and conditions.</p>
+						<p>By using Wedevs&lsquo;s web services and development solutions, you acknowledge that you have read, understood, and agreed to these terms and conditions.</p>
 					</div>
 				</div>
 			</section>

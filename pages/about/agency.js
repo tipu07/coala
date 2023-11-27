@@ -21,7 +21,7 @@ export default function Agency() {
 								</div>
 								<div className={style.text}>
 									<h2>Bespoke Solutions.</h2>
-									<p>We don't believe in one-size-fits-all. Our approach is tailored to your specific needs, crafting bespoke solutions that align with your business goals and aspirations.</p>
+									<p>We don&lsquo;t believe in one-size-fits-all. Our approach is tailored to your specific needs, crafting bespoke solutions that align with your business goals and aspirations.</p>
 								</div>
 							</div>
 						</div>
@@ -32,7 +32,7 @@ export default function Agency() {
 								</div>
 								<div className={style.text}>
 									<h2>Agile Adaptability!!</h2>
-									<p>Our agile methodology isn't just a project management strategy; it's a mindset. We adapt to changes quickly, ensuring flexibility and responsiveness throughout the development journey.</p>
+									<p>Our agile methodology isn&lsquo;t just a project management strategy; it&lsquo;s a mindset. We adapt to changes quickly, ensuring flexibility and responsiveness throughout the development journey.</p>
 								</div>
 							</div>
 						</div>
@@ -43,7 +43,7 @@ export default function Agency() {
 								</div>
 								<div className={style.text}>
 									<h2>Transparency as a Standard</h2>
-									<p>Transparency is not an option; it's our standard. We provide clear communication, regular updates, and an open-door policy, fostering trust and collaboration throughout the project.</p>
+									<p>Transparency is not an option; it&lsquo;s our standard. We provide clear communication, regular updates, and an open-door policy, fostering trust and collaboration throughout the project.</p>
 								</div>
 							</div>
 						</div>

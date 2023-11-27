@@ -11,7 +11,7 @@ export default function Studio() {
 						<h1>
 							Tech <span>Studio</span>
 						</h1>
-						<p className="h2 mb-5">Elevate your brand with our tech studio's cutting-edge web solutions & development expertise.</p>
+						<p className="h2 mb-5">Elevate your brand with our tech studio&lsquo;s cutting-edge web solutions & development expertise.</p>
 						<div className="row">
 							<div className="col-md-6">
 								<h4>User-Centric Approach</h4>
