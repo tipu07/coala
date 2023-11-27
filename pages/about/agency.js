@@ -20,8 +20,8 @@ export default function Agency() {
 									<Image width={800} height={800} src={PhotoChoose01} alt="" />
 								</div>
 								<div className={style.text}>
-									<h2>Work you understand.</h2>
-									<p>The average age of a business owner in the U.S. is 50 YO. Uncomfortable with tech, many are struggling to use modern tools to keep their business afloat. We will assign you a dedicated team specialist who will guide you every step of the way.</p>
+									<h2>Bespoke Solutions.</h2>
+									<p>We don't believe in one-size-fits-all. Our approach is tailored to your specific needs, crafting bespoke solutions that align with your business goals and aspirations.</p>
 								</div>
 							</div>
 						</div>
@@ -31,8 +31,8 @@ export default function Agency() {
 									<Image width={800} height={800} src={PhotoChoose02} alt="" />
 								</div>
 								<div className={style.text}>
-									<h2>Expensive??</h2>
-									<p>Google and YouTube&lsquo;s cost per one 1,000 views (CPM) up by 108%, Facebook ad costs saw a 89% increase, TikTok went up by 92% increase and Snapchat had “the lowest” 64% increase — and they show no signs of slowing down.</p>
+									<h2>Agile Adaptability!!</h2>
+									<p>Our agile methodology isn't just a project management strategy; it's a mindset. We adapt to changes quickly, ensuring flexibility and responsiveness throughout the development journey.</p>
 								</div>
 							</div>
 						</div>
@@ -42,8 +42,8 @@ export default function Agency() {
 									<Image width={800} height={800} src={PhotoChoose03} alt="" />
 								</div>
 								<div className={style.text}>
-									<h2>Transparency</h2>
-									<p>Digital ad fraud is expected to reach $500 billion by 2025, which would make it the largest criminal enterprise after the drug trade. We help you make the most out of your advertising dollars by ensuring your ads are only shown to potential customers, not bots.</p>
+									<h2>Transparency as a Standard</h2>
+									<p>Transparency is not an option; it's our standard. We provide clear communication, regular updates, and an open-door policy, fostering trust and collaboration throughout the project.</p>
 								</div>
 							</div>
 						</div>

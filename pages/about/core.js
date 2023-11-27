@@ -13,7 +13,7 @@ export default function Core() {
 							<h2>
 								Our <span>Core Values</span>
 							</h2>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur facilis sint possimus dolores in provident rem quas laboriosam libero, obcaecati eum perferendis animi facere blanditiis iste corrupti. Voluptates, aliquam illo.</p>
+							<p>Our customer-centric approach places your satisfaction at the forefront, turning your digital vision into a collaborative reality. Welcome to a space where our core values drive every keystroke, transforming ideas into extraordinary digital experiences.</p>
 						</div>
 						<div className={style.image}>
 							<Image width={800} height={800} src={PhotoMainBanner} alt="" />

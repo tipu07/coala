@@ -35,8 +35,8 @@ export default function Match() {
 							</div>
 						</div>
 						<div className={style.content}>
-							<p>We don&lsquo;t do cookie-cutter solutions. Our user-centered design encourages productivity and boosts revenue.</p>
-							<p>The only thing that matters in a brand is what you feel when interacting with a product. We assist established and emerging brands in creating identities that reflect the brand&lsquo;s true identity.</p>
+							<p>Immerse your brand in a world of captivating aesthetics with our creative design expertise.</p>
+							<p>Elevate your digital presence with our creative design prowess. From sleek interfaces to immersive experiences, we blend aesthetics with functionality, ensuring your brand stands out in the online landscape.</p>
 						</div>
 					</div>
 				</div>
@@ -54,7 +54,7 @@ export default function Match() {
 								<Image width={1000} height={800} src={PhotoOurWork} alt="" />
 							</div>
 						</div>
-						<p>From the moment our company was founded, we have helped our clients find exceptional solutions for their businesses, creating memorable brands and digital products. Our expertise grows with each year, and our accumulated experience empowers us to develop products exactly as they should be.</p>
+						<p>Embark on a digital journey where creativity meets technology at Wedevs. Our team seamlessly integrates innovative design with cutting-edge development, crafting solutions that redefine the digital experience.</p>
 					</div>
 				</div>
 			</section>

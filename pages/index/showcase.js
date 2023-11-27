@@ -25,39 +25,39 @@ export default function Showcase() {
 								<div className={style.image}>
 									<Image width={1000} height={1000} src={PhotoShowcase01} alt="" />
 									<div className={style.overlay}>
-										<Link href="/work" className={`${style.site_btn} ${style.simple} ${style.round}`}>
+										<Link href="https://axiomtechnology.io/" className={`${style.site_btn} ${style.simple} ${style.round}`}>
 											Explore
 										</Link>
 									</div>
 								</div>
 								<div className={style.text}>
-									<h4>Website Development</h4>
+									<h4>Axiom Technology</h4>
 								</div>
 							</div>
 							<div className={style.showcase_blk}>
 								<div className={style.image}>
 									<Image width={1000} height={1000} src={PhotoShowcase02} alt="" />
 									<div className={style.overlay}>
-										<Link href="/work" className={`${style.site_btn} ${style.simple} ${style.round}`}>
+										<Link href="https://blootopia.com/" className={`${style.site_btn} ${style.simple} ${style.round}`}>
 											Explore
 										</Link>
 									</div>
 								</div>
 								<div className={style.text}>
-									<h4>Organic Social</h4>
+									<h4>Blootopia</h4>
 								</div>
 							</div>
 							<div className={style.showcase_blk}>
 								<div className={style.image}>
 									<Image width={1000} height={1000} src={PhotoShowcase03} alt="" />
 									<div className={style.overlay}>
-										<Link href="/work" className={`${style.site_btn} ${style.simple} ${style.round}`}>
+										<Link href="https://bridge-axis.vercel.app/" className={`${style.site_btn} ${style.simple} ${style.round}`}>
 											Explore
 										</Link>
 									</div>
 								</div>
 								<div className={style.text}>
-									<h4>Pre-Launch Strategy</h4>
+									<h4>Bridge Axis</h4>
 								</div>
 							</div>
 						</div>
@@ -66,39 +66,39 @@ export default function Showcase() {
 								<div className={style.image}>
 									<Image width={1000} height={1000} src={PhotoShowcase04} alt="" />
 									<div className={style.overlay}>
-										<Link href="/work" className={`${style.site_btn} ${style.simple} ${style.round}`}>
+										<Link href="https://campvine.com/" className={`${style.site_btn} ${style.simple} ${style.round}`}>
 											Explore
 										</Link>
 									</div>
 								</div>
 								<div className={style.text}>
-									<h4>Shopify Design & Development</h4>
+									<h4>Campvine</h4>
 								</div>
 							</div>
 							<div className={style.showcase_blk}>
 								<div className={style.image}>
 									<Image width={1000} height={1000} src={PhotoShowcase05} alt="" />
 									<div className={style.overlay}>
-										<Link href="/work" className={`${style.site_btn} ${style.simple} ${style.round}`}>
+										<Link href="https://www.crainly.com/" className={`${style.site_btn} ${style.simple} ${style.round}`}>
 											Explore
 										</Link>
 									</div>
 								</div>
 								<div className={style.text}>
-									<h4>eCommerce Marketing</h4>
+									<h4>Crainly</h4>
 								</div>
 							</div>
 							<div className={style.showcase_blk}>
 								<div className={style.image}>
 									<Image width={1000} height={1000} src={PhotoShowcase06} alt="" />
 									<div className={style.overlay}>
-										<Link href="/work" className={`${style.site_btn} ${style.simple} ${style.round}`}>
+										<Link href="http://cultural-candy.herokuapp.com/" className={`${style.site_btn} ${style.simple} ${style.round}`}>
 											Explore
 										</Link>
 									</div>
 								</div>
 								<div className={style.text}>
-									<h4>Email Marketing</h4>
+									<h4>Cultural Candy</h4>
 								</div>
 							</div>
 						</div>
@@ -107,39 +107,39 @@ export default function Showcase() {
 								<div className={style.image}>
 									<Image width={1000} height={1000} src={PhotoShowcase07} alt="" />
 									<div className={style.overlay}>
-										<Link href="/work" className={`${style.site_btn} ${style.simple} ${style.round}`}>
+										<Link href="https://modiglianiantiquites.com/" className={`${style.site_btn} ${style.simple} ${style.round}`}>
 											Explore
 										</Link>
 									</div>
 								</div>
 								<div className={style.text}>
-									<h4>Growth Strategy</h4>
+									<h4>Modigliani Antiquités</h4>
 								</div>
 							</div>
 							<div className={style.showcase_blk}>
 								<div className={style.image}>
 									<Image width={1000} height={1000} src={PhotoShowcase08} alt="" />
 									<div className={style.overlay}>
-										<Link href="/work" className={`${style.site_btn} ${style.simple} ${style.round}`}>
+										<Link href="https://www.herosolutions.com.pk/metoo/orow/index.php" className={`${style.site_btn} ${style.simple} ${style.round}`}>
 											Explore
 										</Link>
 									</div>
 								</div>
 								<div className={style.text}>
-									<h4>Conversion Rate Optimization</h4>
+									<h4>Orow Construction</h4>
 								</div>
 							</div>
 							<div className={style.showcase_blk}>
 								<div className={style.image}>
 									<Image width={1000} height={1000} src={PhotoShowcase09} alt="" />
 									<div className={style.overlay}>
-										<Link href="/work" className={`${style.site_btn} ${style.simple} ${style.round}`}>
+										<Link href="https://steveparkrealtor.com/" className={`${style.site_btn} ${style.simple} ${style.round}`}>
 											Explore
 										</Link>
 									</div>
 								</div>
 								<div className={style.text}>
-									<h4>Brand Positioning</h4>
+									<h4>Steve Park Realtor</h4>
 								</div>
 							</div>
 						</div>

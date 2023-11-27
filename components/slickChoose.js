@@ -29,8 +29,8 @@ export default function SlickChoose() {
 						<Image width={600} height={600} src={PhotoChoose01} alt="" />
 					</div>
 					<div className={style.text}>
-						<h3>Raiffeisen Bank – Developing a sleek design for ATM interfaces</h3>
-						<p>Scale yourself through videos tailored for each lead</p>
+						<h3>Innovative Solutions Tailored to You</h3>
+						<p>Collaborate with us to transform your ideas into innovative and customized digital solutions</p>
 					</div>
 				</div>
 				<div className={style.choose_blk}>
@@ -38,8 +38,8 @@ export default function SlickChoose() {
 						<Image width={600} height={600} src={PhotoChoose02} alt="" />
 					</div>
 					<div className={style.text}>
-						<h3>DataLight – Instrument for detailed cryptocurrency market analysis</h3>
-						<p>Create outreach campaigns that truly stand out</p>
+						<h3>Transparent and Collaborative Process</h3>
+						<p>Experience a transparent and collaborative development process, keeping you informed and involved every step of the way</p>
 					</div>
 				</div>
 				<div className={style.choose_blk}>
@@ -47,8 +47,8 @@ export default function SlickChoose() {
 						<Image width={600} height={600} src={PhotoChoose03} alt="" />
 					</div>
 					<div className={style.text}>
-						<h3>Genesis Vision – Private trust management and trading platform</h3>
-						<p>Effectively engage with qualified prospects</p>
+						<h3>Continuous Learning and Improvement</h3>
+						<p>Benefit from a team dedicated to continuous learning and improvement, staying ahead of industry trends for your advantage</p>
 					</div>
 				</div>
 			</Slider>

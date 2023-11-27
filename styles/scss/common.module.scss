@@ -68,8 +68,8 @@
 	@include flex(center, center);
 	// display: none;
 	@include pos($l: 2rem, $r: null, $z: 4);
-	width: 2rem;
-	height: 1.6rem;
+	width: 2.4rem;
+	height: 2rem;
 	background: transparent;
 	padding: 0;
 	margin: auto;
@@ -84,7 +84,7 @@
 	> span {
 		position: absolute;
 		width: inherit;
-		height: 0.2rem;
+		height: 0.3rem;
 		background: var(--black);
 		@include trans;
 	}
@@ -93,7 +93,7 @@
 		top: 0;
 		@at-root .active#{&} {
 			top: 50%;
-			margin-top: -0.1rem;
+			margin-top: -0.15rem;
 			-webkit-transform: rotate(45deg);
 			-ms-transform: rotate(45deg);
 			transform: rotate(45deg);
@@ -104,7 +104,7 @@
 		bottom: 0;
 		@at-root .active#{&} {
 			bottom: 50%;
-			margin-bottom: -0.1rem;
+			margin-bottom: -0.15rem;
 			-webkit-transform: rotate(135deg);
 			-ms-transform: rotate(135deg);
 			transform: rotate(135deg);

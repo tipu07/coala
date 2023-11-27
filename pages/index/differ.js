@@ -15,7 +15,7 @@ export default function Differ() {
 							</span>{" "}
 							is better than others??
 						</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac sodales massa, ac congue lacus. Donec efficitur eu lacus et blandit. Phasellus ut eros in felis hendrerit luctus.</p>
+						<p>At Wedevs, we believe in more than just lines of code; we believe in crafting digital experiences that leave a lasting impact. Our philosophy is rooted in a commitment to innovation, collaboration, and the relentless pursuit of excellence.</p>
 					</div>
 					<div className={style.wrapper}>
 						<div className={style.column}>
@@ -27,25 +27,25 @@ export default function Differ() {
 									<li>
 										<div className={style.inr}>
 											<div className={style.num}>1</div>
-											<div className={style.text}>x1 silica gel</div>
+											<div className={style.text}>Innovation as a Guiding Light</div>
 										</div>
 									</li>
 									<li>
 										<div className={style.inr}>
 											<div className={style.num}>2</div>
-											<div className={style.text}>ear spoon</div>
+											<div className={style.text}>Collaboration for Success</div>
 										</div>
 									</li>
 									<li>
 										<div className={style.inr}>
 											<div className={style.num}>3</div>
-											<div className={style.text}>3.5mm head</div>
+											<div className={style.text}>Excellence in Every Line of Code</div>
 										</div>
 									</li>
 									<li>
 										<div className={style.inr}>
 											<div className={style.num}>4</div>
-											<div className={style.text}>widely applicable soft feeling</div>
+											<div className={style.text}>User-Centric Approach</div>
 										</div>
 									</li>
 								</ul>
@@ -57,7 +57,7 @@ export default function Differ() {
 							</div>
 							<div className={style.inner}>
 								<div className={style.text}>
-									<p>tear drop cotton swabs 4.5mm head not comfortable hurt eardrum</p>
+									<p>Trust is the cornerstone of every successful partnership</p>
 								</div>
 							</div>
 						</div>
@@ -67,7 +67,7 @@ export default function Differ() {
 							</div>
 							<div className={style.inner}>
 								<div className={style.text}>
-									<p>rubber head cotton swabs 4mm head not comfortable hurt eardrum</p>
+									<p>In the dynamic world of web services and development, stagnation is not an option</p>
 								</div>
 							</div>
 						</div>

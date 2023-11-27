@@ -27,7 +27,7 @@
 	header & {
 		float: left;
 		max-width: 14rem;
-		margin-left: 5rem;
+		// margin-left: 5rem;
 		// margin: 0.5rem 0 0;
 		@include trans;
 		@include ipad_sm {
@@ -57,17 +57,30 @@
 	box-shadow: 0 0.5rem 2.5rem rgba(var(--black_rgb), 0.04); */
 	@include trans;
 	z-index: 30;
-	> a {
+	.header_btn {
+		@include flex(center);
 		position: absolute;
 		top: 0;
 		right: 0;
-		font-size: 2.4rem;
-		height: 12rem;
-		padding: 0 6rem;
-		border-radius: 0;
-		text-transform: uppercase;
-		@include ipad_sm {
-			display: none;
+		> a {
+			font-size: 2.4rem;
+			height: 12rem;
+			padding: 0 6rem;
+			border-radius: 0;
+			text-transform: uppercase;
+			@include ipad_sm {
+				display: none;
+			}
+		}
+		.toggle {
+			position: relative;
+			left: 0;
+			margin-right: 2rem;
+			&_btn {
+				@include flex(center);
+				@include gap(0 1rem);
+				text-transform: uppercase;
+			}
 		}
 	}
 	.toggle {
@@ -232,11 +245,9 @@
 	}
 	.toggle {
 		top: 2rem;
+		left: initial;
+		right: 2rem;
 		bottom: initial;
-		@include mobile_md {
-			left: initial;
-			right: 2rem;
-		}
 	}
 }
 
@@ -984,8 +995,11 @@
 			}
 			.image {
 				position: relative;
-				border-radius: 2rem;
+				padding-bottom: 120%;
 				margin-bottom: 1.5rem;
+				border-radius: 2rem;
+				-webkit-box-shadow: rgb(0 0 0 / 10%) 0 1rem 4rem;
+				box-shadow: rgb(0 0 0 / 10%) 0 1rem 4rem;
 				overflow: hidden;
 				&:hover {
 					> img {
@@ -998,6 +1012,9 @@
 					}
 				}
 				> img {
+					@include object($fill: true);
+					-o-object-position: top center;
+					object-position: top center;
 					-webkit-transition: all linear 0.3s;
 					transition: all linear 0.3s;
 				}
@@ -1206,6 +1223,12 @@
 			}
 			@include mobile_md {
 				font-size: 4rem;
+			}
+			> em {
+				display: block;
+				font-weight: 400;
+				font-family: var(--font-museo-sans);
+				@include transform(skewX(-15deg));
 			}
 		}
 		p {
@@ -2242,6 +2265,7 @@
 	}
 	.vid_blk {
 		@include pos($l: 50%, $z: 1);
+		-webkit-filter: brightness(0.9) invert(1) grayscale(1);
 		filter: brightness(0.9) invert(1) grayscale(1);
 		overflow: hidden;
 		> video {
