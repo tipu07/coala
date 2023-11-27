@@ -13,7 +13,7 @@ export default function Serve() {
 						<h1 className="mb-4">
 							What <span>we&lsquo;ll do</span>
 						</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eveniet aut deserunt perspiciatis corrupti repellendus vero repellat voluptatum facere minus aliquam, alias tenetur voluptate nihil rem consequatur possimus porro perferendis.</p>
+						<p>At Wedevs, we are dedicated to transforming your digital vision into reality. As a leading provider of comprehensive web services and development solutions, we specialize in web design, development, hosting, and more. Our team of skilled professionals is committed to delivering cutting-edge solutions tailored to meet your unique business needs.</p>
 					</div>
 					<div className={style.wrapper}>
 						<div className={style.column}>
@@ -21,8 +21,8 @@ export default function Serve() {
 								<div className={style.ico}>
 									<Image width={100} height={100} src={IconBlock} alt="" />
 								</div>
-								<h2>Strategy</h2>
-								<p>By gathering and analyzing data on market trends, consumer behavior, and competition, we can help you make informed decisions about your ecommerce strategy.</p>
+								<h2>Web Design</h2>
+								<p>Create a captivating online presence with our expert web design services. Our designs are not only visually stunning but also user-friendly and optimized for a seamless user experience.</p>
 							</div>
 						</div>
 						<div className={style.column}>
@@ -30,8 +30,8 @@ export default function Serve() {
 								<div className={style.ico}>
 									<Image width={100} height={100} src={IconLayers} alt="" />
 								</div>
-								<h2>Marketing</h2>
-								<p>We specialize in creating custom eCommerce stores tailored to your specific needs - customized themes, app integrations, and all the bells and whistles to make your brand stand out.</p>
+								<h2>Web Development</h2>
+								<p>From simple websites to complex web applications, our development team has the skills to turn your ideas into functional and scalable digital solutions.</p>
 							</div>
 						</div>
 						<div className={style.column}>
@@ -48,8 +48,8 @@ export default function Serve() {
 								<div className={style.ico}>
 									<Image width={100} height={100} src={IconCreative} alt="" />
 								</div>
-								<h2>E-Commerce</h2>
-								<p>Supercharge your online sales with our data-driven eCommerce marketing strategies. We make ecommerce marketing so easy, even your cat could do it (if they had opposable thumbs).</p>
+								<h2>E-Commerce Solutions</h2>
+								<p>Take your business to the next level with our e-commerce solutions. We design and develop secure and user-friendly online stores tailored to your products and target audience.</p>
 							</div>
 						</div>
 						<div className={style.column}>
@@ -57,8 +57,8 @@ export default function Serve() {
 								<div className={style.ico}>
 									<Image width={100} height={100} src={IconBlock} alt="" />
 								</div>
-								<h2>Branding</h2>
-								<p>Boost the ranking of your website by appearing higher on search engines through top-quality natural SEO and algorithm-driven content built for long-term success.</p>
+								<h2>Hosting and Maintenance</h2>
+								<p>Ensure the performance and security of your website with our reliable hosting and maintenance services. Focus on your business while we take care of the technical details.</p>
 							</div>
 						</div>
 						<div className={style.column}>

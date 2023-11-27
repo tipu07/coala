@@ -10,26 +10,30 @@ export default function Terms() {
 						<h2>
 							Privacy <span>Policy</span>
 						</h2>
-						<p>Wedevs works with a variety of international lorem ipsum management organisations.</p>
+						<p>Your privacy matters. We safeguard your data, using it solely to enhance our services securely.</p>
 					</div>
 					<div className={style.content}>
-						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &lsquo;Content here, content here&lsquo;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &lsquo;lorem ipsum&lsquo; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-						<h4>Where can I get some?</h4>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&lsquo;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&lsquo;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-						<h4>Where does it come from?</h4>
-						<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &lsquo;Content here, content here&lsquo;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &lsquo;lorem ipsum&lsquo; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-						<ol>
-							<li>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</li>
-							<li>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</li>
-							<li>Randomised words which don&lsquo;t look even slightly believable.</li>
-							<li>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</li>
-							<li>The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</li>
-						</ol>
-						<h4>Where can I get some?</h4>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&lsquo;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&lsquo;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-						<h4>Where does it come from?</h4>
-						<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+						<p>At Wedevs, we are committed to protecting the privacy and security of your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your data when you visit our website or engage with our web services and development offerings.</p>
+
+						<h4>1. Information We Collect:</h4>
+						<p>We may collect personal information, such as names, email addresses, and contact details, when voluntarily provided by users during inquiries, registrations, or other interactions with our website and services. Additionally, we may automatically collect non-personal information, such as IP addresses, browser types, and device information, for analytical purposes.</p>
+						<h4>2. How We Use Your Information:</h4>
+						<p>We use the collected information to provide and improve our web services, respond to inquiries, personalize user experiences, and send relevant communications. Your data may also be used for internal analytics to enhance the functionality and performance of our website.</p>
+						<h4>3. Information Sharing:</h4>
+						<p>We do not sell, trade, or transfer your personal information to third parties without your consent, except as required by law or for essential service providers assisting in our operations. We ensure any third parties adhere to strict confidentiality and data protection standards.</p>
+						<h4>4. Data Security:</h4>
+						<p>We employ industry-standard security measures to protect against unauthorized access, alteration, disclosure, or destruction of your personal information. However, no method of transmission over the internet or electronic storage is completely secure, and we cannot guarantee absolute security.</p>
+						<h4>5. Cookies and Tracking:</h4>
+						<p>Our website may use cookies and similar tracking technologies to enhance user experience and gather information about how our site is used. Users can control cookie preferences through browser settings; however, disabling cookies may impact certain features of the website.</p>
+						<h4>6. Your Choices:</h4>
+						<p>
+							You have the right to access, correct, or delete your personal information. You may also choose to opt-out of receiving communications from us. To exercise these rights or for any privacy-related inquiries, please contact us at <a href="mailto:contact@wedevs.com">contact@wedevs.com</a>.
+						</p>
+						<h4>7. Changes to the Privacy Policy:</h4>
+						<p>We may update this Privacy Policy periodically to reflect changes in our practices or for legal compliance. We encourage users to review this page for the latest information on how we handle and protect personal information.</p>
+						<p>&nbsp;</p>
+						<p>By using our website and services, you agree to the terms outlined in this Privacy Policy. If you do not agree with these terms, please refrain from using our website and services.</p>
+						<p>Thank you for trusting Wedevs. Your privacy is our priority.</p>
 					</div>
 				</div>
 			</section>

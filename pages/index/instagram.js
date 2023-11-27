@@ -11,7 +11,9 @@ export default function Instagram() {
 						<h2>
 							Follow us on <em>Instagram</em>
 						</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Nunc ex nunc, semper ut tincidunt ut, aliquam sit amet magna.</p>
+						<p>
+							Behind every pixel is a story. Swipe left to explore the journey of crafting seamless and stunning web experiences. 💻✨ <u>#WebDevelopment</u> <u>#DigitalCraftsmanship</u>
+						</p>
 					</div>
 				</div>
 				<div className={style.wrapper}>

@@ -12,7 +12,7 @@ export default function Team() {
 						<h2>
 							<em>The</em> <span>Team</span>
 						</h2>
-						<p>This is our rocket ship crew. We are working hard to make running business simpler for everyone.</p>
+						<p>Meet our dynamic team at Wedevs, where passion converges with expertise, crafting digital solutions that redefine innovation.</p>
 					</div>
 					<div className={style.wrapper}>
 						<div className={style.column}>

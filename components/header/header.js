@@ -17,14 +17,19 @@ export default function Header(props) {
 			<header id={style.header}>
 				<div className={style.contain}>
 					<Logo />
-					<button type="button" className={`${style.toggle} ${navActive ? style.active : ""}`} onClick={navToggleHandle}>
-						<span></span>
-					</button>
 					{/* <Navigation navActive={navActive} /> */}
 				</div>
-				<Link href="/contact" className={`${style.site_btn} ${style.header_btn}`}>
-					Let&lsquo;s talk
-				</Link>
+				<div className={style.header_btn}>
+					<div className={style.toggle_btn}>
+						<strong className="fw_600">Menu</strong>
+						<button type="button" className={`${style.toggle} ${navActive ? style.active : ""}`} onClick={navToggleHandle}>
+							<span></span>
+						</button>
+					</div>
+					<Link href="/contact" className={style.site_btn}>
+						Let&lsquo;s talk
+					</Link>
+				</div>
 			</header>
 			<Navigation navActive={navActive} toggleClick={navToggleHandle} />
 		</>
