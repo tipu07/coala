@@ -14,7 +14,7 @@ export default function ReviewCard(props) {
 					<p>{text}</p>
 				</div>
 				<div className={style.title}>
-					<h5 className={`${style.name} mb-0`}>{name}</h5>
+					<div className={`${style.name} h5 mb-0`}>{name}</div>
 					<div className={`${style.ico} ${style.fill} ${style.round}`}>
 						<Image width={200} height={200} src={image} alt="" />
 					</div>

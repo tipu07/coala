@@ -39,7 +39,7 @@ export default function Navigation(props) {
 				</ul>
 			</nav> */}
 			<div id={style.navigation} className={`${navActive ? style.active : ""}`}>
-				<button type="button" className={`${style.toggle} ${navActive ? style.active : ""}`} onClick={toggleClick}>
+				<button type="button" className={`${style.toggle} ${navActive ? style.active : ""}`} onClick={toggleClick} aria-label="Toggle Button">
 					<span></span>
 				</button>
 				<div id={style.wrapper}>

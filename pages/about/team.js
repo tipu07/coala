@@ -21,16 +21,16 @@ export default function Team() {
 									<Image width={400} height={600} src={PhotoTeam_01} alt="" />
 								</div>
 								<div className={style.text}>
-									<h4>Alberto Philips</h4>
+									<div className="h4">Alberto Philips</div>
 									<p className="small">CEO</p>
 									<ul className={style.social}>
 										<li>
-											<a href="?">
+											<a href="?" aria-label="Linkedin">
 												<Image width={60} height={60} src={SocialLinkedin} alt="" />
 											</a>
 										</li>
 										<li>
-											<a href="?">
+											<a href="?" aria-label="Instagram">
 												<Image width={60} height={60} src={SocialInstagram} alt="" />
 											</a>
 										</li>
@@ -44,16 +44,16 @@ export default function Team() {
 									<Image width={400} height={600} src={PhotoTeam_02} alt="" />
 								</div>
 								<div className={style.text}>
-									<h4>Alex Smith</h4>
+									<div className="h4">Alex Smith</div>
 									<p className="small">LEAD MOBILE ENGINEER</p>
 									<ul className={style.social}>
 										<li>
-											<a href="?">
+											<a href="?" aria-label="Linkedin">
 												<Image width={60} height={60} src={SocialLinkedin} alt="" />
 											</a>
 										</li>
 										<li>
-											<a href="?">
+											<a href="?" aria-label="Instagram">
 												<Image width={60} height={60} src={SocialInstagram} alt="" />
 											</a>
 										</li>
@@ -67,16 +67,16 @@ export default function Team() {
 									<Image width={400} height={600} src={PhotoTeam_03} alt="" />
 								</div>
 								<div className={style.text}>
-									<h4>Polina Jones</h4>
+									<div className="h4">Polina Jones</div>
 									<p className="small">PRODUCT DESIGN LEAD</p>
 									<ul className={style.social}>
 										<li>
-											<a href="?">
+											<a href="?" aria-label="Linkedin">
 												<Image width={60} height={60} src={SocialLinkedin} alt="" />
 											</a>
 										</li>
 										<li>
-											<a href="?">
+											<a href="?" aria-label="Instagram">
 												<Image width={60} height={60} src={SocialInstagram} alt="" />
 											</a>
 										</li>
@@ -90,16 +90,16 @@ export default function Team() {
 									<Image width={400} height={600} src={PhotoTeam_04} alt="" />
 								</div>
 								<div className={style.text}>
-									<h4>Chris Gayle</h4>
+									<div className="h4">Chris Gayle</div>
 									<p className="small">BACKEND ENGINEER</p>
 									<ul className={style.social}>
 										<li>
-											<a href="?">
+											<a href="?" aria-label="Linkedin">
 												<Image width={60} height={60} src={SocialLinkedin} alt="" />
 											</a>
 										</li>
 										<li>
-											<a href="?">
+											<a href="?" aria-label="Instagram">
 												<Image width={60} height={60} src={SocialInstagram} alt="" />
 											</a>
 										</li>
@@ -113,16 +113,16 @@ export default function Team() {
 									<Image width={400} height={600} src={PhotoTeam_05} alt="" />
 								</div>
 								<div className={style.text}>
-									<h4>Delia Denia</h4>
+									<div className="h4">Delia Denia</div>
 									<p className="small">HEAD OF PRODUCT</p>
 									<ul className={style.social}>
 										<li>
-											<a href="?">
+											<a href="?" aria-label="Linkedin">
 												<Image width={60} height={60} src={SocialLinkedin} alt="" />
 											</a>
 										</li>
 										<li>
-											<a href="?">
+											<a href="?" aria-label="Instagram">
 												<Image width={60} height={60} src={SocialInstagram} alt="" />
 											</a>
 										</li>
@@ -136,16 +136,16 @@ export default function Team() {
 									<Image width={400} height={600} src={PhotoTeam_06} alt="" />
 								</div>
 								<div className={style.text}>
-									<h4>Radu Fikri</h4>
+									<div className="h4">Radu Fikri</div>
 									<p className="small">PRODUCT ENGINEER</p>
 									<ul className={style.social}>
 										<li>
-											<a href="?">
+											<a href="?" aria-label="Linkedin">
 												<Image width={60} height={60} src={SocialLinkedin} alt="" />
 											</a>
 										</li>
 										<li>
-											<a href="?">
+											<a href="?" aria-label="Instagram">
 												<Image width={60} height={60} src={SocialInstagram} alt="" />
 											</a>
 										</li>
@@ -159,16 +159,16 @@ export default function Team() {
 									<Image width={400} height={600} src={PhotoTeam_07} alt="" />
 								</div>
 								<div className={style.text}>
-									<h4>Sandeep Chohan</h4>
+									<div className="h4">Sandeep Chohan</div>
 									<p className="small">LEAD ENGINEER</p>
 									<ul className={style.social}>
 										<li>
-											<a href="?">
+											<a href="?" aria-label="Linkedin">
 												<Image width={60} height={60} src={SocialLinkedin} alt="" />
 											</a>
 										</li>
 										<li>
-											<a href="?">
+											<a href="?" aria-label="Instagram">
 												<Image width={60} height={60} src={SocialInstagram} alt="" />
 											</a>
 										</li>
@@ -182,16 +182,16 @@ export default function Team() {
 									<Image width={400} height={600} src={PhotoTeam_08} alt="" />
 								</div>
 								<div className={style.text}>
-									<h4>Shafia Yosafzai</h4>
+									<div className="h4">Shafia Yosafzai</div>
 									<p className="small">PRODUCT ENGINEER</p>
 									<ul className={style.social}>
 										<li>
-											<a href="?">
+											<a href="?" aria-label="Linkedin">
 												<Image width={60} height={60} src={SocialLinkedin} alt="" />
 											</a>
 										</li>
 										<li>
-											<a href="?">
+											<a href="?" aria-label="Instagram">
 												<Image width={60} height={60} src={SocialInstagram} alt="" />
 											</a>
 										</li>

@@ -22,7 +22,7 @@ export default function Header(props) {
 				<div className={style.header_btn}>
 					<div className={style.toggle_btn}>
 						<strong className="fw_600">Menu</strong>
-						<button type="button" className={`${style.toggle} ${navActive ? style.active : ""}`} onClick={navToggleHandle}>
+						<button type="button" className={`${style.toggle} ${navActive ? style.active : ""}`} onClick={navToggleHandle} aria-label="Toggle Button">
 							<span></span>
 						</button>
 					</div>

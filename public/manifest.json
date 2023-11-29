@@ -1,0 +1,26 @@
+{
+	"short_name": "Wedevs",
+	"name": "Wedevs + </>",
+	"icons": [
+		{
+			"src": "/images/logo.svg",
+			"type": "image/webp",
+			"sizes": "512x512"
+		},
+		{
+			"src": "/images/logo.svg",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/images/logo.svg",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "any maskable"
+		}
+	],
+	"start_url": "/?source=wedevs",
+	"background_color": "#fff",
+	"theme_color": "#b4b4b3",
+	"display": "standalone"
+}

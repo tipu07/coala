@@ -5,7 +5,7 @@ export default function RatingStars(props) {
 	const { value } = props
 	return (
 		<>
-			<div className={style.rating} data-value={value} aria-readonly>
+			<div className={style.rating} data-value={value} aria-readonly aria-label="Rating">
 				<i></i>
 				<i></i>
 				<i></i>
