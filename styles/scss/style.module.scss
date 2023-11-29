@@ -1319,7 +1319,7 @@
 		@include ipad_sm {
 			margin-bottom: 6rem;
 		}
-		h2 {
+		.h2 {
 			max-width: 80rem;
 			font-size: 12rem;
 			margin-bottom: 3rem;
@@ -1380,7 +1380,7 @@
 			color: var(--prime_color);
 		}
 	}
-	h4 {
+	.h4 {
 		margin-bottom: 3rem;
 	}
 	.list {
@@ -1443,9 +1443,10 @@
 		p {
 			margin: 0;
 			> a {
-				color: var(--prime_color);
+				color: var(--light);
+				text-decoration: underline;
 				&:hover {
-					color: var(--light);
+					color: var(--prime_color);
 				}
 			}
 		}

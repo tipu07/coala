@@ -11,12 +11,12 @@ export default function Footer() {
 			<footer id={style.footer}>
 				<div className={style.contain}>
 					<div className={style.top_blk}>
-						<h2>
+						<div className={`h2 ${style.h2}`}>
 							Subscribe to <span>our newsletter</span>
-						</h2>
+						</div>
 						<form action="" method="post">
 							<input type="text" name="" id="" placeholder="Email Address" />
-							<button type="submit" className={style.site_btn}></button>
+							<button type="submit" className={style.site_btn} aria-label="Submit"></button>
 						</form>
 					</div>
 					<div className={style.mid_blk}>
@@ -25,29 +25,29 @@ export default function Footer() {
 								<Logo />
 								<ul className={style.social_list}>
 									<li>
-										<a href="?" target="_blank">
+										<a href="?" target="_blank" aria-label="Twitter">
 											<Image width={100} height={100} src={SocialTwitter} alt="" />
 										</a>
 									</li>
 									<li>
-										<a href="?" target="_blank">
+										<a href="?" target="_blank" aria-label="Facebook">
 											<Image width={100} height={100} src={SocialFacebook} alt="" />
 										</a>
 									</li>
 									<li>
-										<a href="?" target="_blank">
+										<a href="?" target="_blank" aria-label="Linkedin">
 											<Image width={100} height={100} src={SocialLinkedin} alt="" />
 										</a>
 									</li>
 									<li>
-										<a href="?" target="_blank">
+										<a href="?" target="_blank" aria-label="Instagram">
 											<Image width={100} height={100} src={SocialInstagram} alt="" />
 										</a>
 									</li>
 								</ul>
 							</div>
 							<div className={style.column}>
-								<h4>Quick Links</h4>
+								<div className={`h4 ${style.h4}`}>Quick Links</div>
 								<ul className={style.list}>
 									<li>
 										<Link href="/">Home</Link>
@@ -70,7 +70,7 @@ export default function Footer() {
 								</ul>
 							</div>
 							<div className={style.column}>
-								<h4>Customer Support</h4>
+								<div className={`h4 ${style.h4}`}>Customer Support</div>
 								<ul className={style.list}>
 									<li>
 										<Link href="/terms-conditions">Terms and conditions</Link>
@@ -84,7 +84,7 @@ export default function Footer() {
 								</ul>
 							</div>
 							<div className={style.column}>
-								<h4>Contact Info</h4>
+								<div className={`h4 ${style.h4}`}>Contact Info</div>
 								<ul className={style.list}>
 									<li>
 										<strong>A.</strong>{" "}

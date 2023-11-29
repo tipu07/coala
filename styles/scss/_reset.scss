@@ -245,7 +245,11 @@ p {
 	margin: 0 0 1rem;
 	> a {
 		display: inline;
-		color: var(--prime_color);
+		// color: var(--prime_color);
+		color: var(--black);
+		&:not(class) {
+			text-decoration: underline;
+		}
 		&:hover {
 			color: #2115dc;
 		}
