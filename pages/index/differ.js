@@ -1,7 +1,7 @@
 import React from "react"
 import style from "@/styles/scss/web.module.scss"
 import Image from "next/image"
-import { PhotoShowcase01, PhotoShowcase07, PhotoWork05 } from "@/components/images"
+import { PhotoInsta01, PhotoInsta07, PhotoWork05 } from "@/components/images"
 
 export default function Differ() {
 	return (
@@ -21,7 +21,7 @@ export default function Differ() {
 						<div className={style.column}>
 							<div className={style.image_blk}>
 								<div className={style.image}>
-									<Image width={600} height={800} src={PhotoShowcase01} alt="" />
+									<Image width={600} height={800} src={PhotoInsta01} alt="" />
 								</div>
 								<ul className={style.list}>
 									<li>
@@ -53,7 +53,7 @@ export default function Differ() {
 						</div>
 						<div className={style.column}>
 							<div className={style.image}>
-								<Image width={600} height={800} src={PhotoShowcase07} alt="" />
+								<Image width={600} height={800} src={PhotoInsta07} alt="" />
 							</div>
 							<div className={style.inner}>
 								<div className={style.text}>
