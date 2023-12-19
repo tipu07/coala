@@ -2,7 +2,7 @@ import React from "react"
 import style from "@/styles/scss/web.module.scss"
 import Slider from "react-slick"
 import Image from "next/image"
-import { PhotoShowcase01, PhotoShowcase02, PhotoShowcase03, PhotoShowcase04, PhotoShowcase05, PhotoShowcase06, PhotoShowcase07, PhotoShowcase08, PhotoShowcase09, SocialInstagram } from "@/components/images"
+import { PhotoInsta01, PhotoInsta02, PhotoInsta03, PhotoInsta04, PhotoInsta05, PhotoInsta06, PhotoInsta07, PhotoInsta08, PhotoInsta09, SocialInstagram } from "@/components/images"
 import Link from "next/link"
 
 export default function SlickInstagram() {
@@ -38,55 +38,55 @@ export default function SlickInstagram() {
 		<>
 			<Slider {...settings} className={`${style.slick_instagram} slick-instagram slick-carousel`}>
 				<div className={style.insta_blk}>
-					<Image width={500} height={500} src={PhotoShowcase01} alt="" />
+					<Image width={500} height={500} src={PhotoInsta01} alt="" />
 					<Link href="/" className={style.overlay}>
 						<Image width={40} height={40} src={SocialInstagram} alt="" />
 					</Link>
 				</div>
 				<div className={style.insta_blk}>
-					<Image width={500} height={500} src={PhotoShowcase02} alt="" />
+					<Image width={500} height={500} src={PhotoInsta02} alt="" />
 					<Link href="/" className={style.overlay}>
 						<Image width={40} height={40} src={SocialInstagram} alt="" />
 					</Link>
 				</div>
 				<div className={style.insta_blk}>
-					<Image width={500} height={500} src={PhotoShowcase03} alt="" />
+					<Image width={500} height={500} src={PhotoInsta03} alt="" />
 					<Link href="/" className={style.overlay}>
 						<Image width={40} height={40} src={SocialInstagram} alt="" />
 					</Link>
 				</div>
 				<div className={style.insta_blk}>
-					<Image width={500} height={500} src={PhotoShowcase04} alt="" />
+					<Image width={500} height={500} src={PhotoInsta04} alt="" />
 					<Link href="/" className={style.overlay}>
 						<Image width={40} height={40} src={SocialInstagram} alt="" />
 					</Link>
 				</div>
 				<div className={style.insta_blk}>
-					<Image width={500} height={500} src={PhotoShowcase05} alt="" />
+					<Image width={500} height={500} src={PhotoInsta05} alt="" />
 					<Link href="/" className={style.overlay}>
 						<Image width={40} height={40} src={SocialInstagram} alt="" />
 					</Link>
 				</div>
 				<div className={style.insta_blk}>
-					<Image width={500} height={500} src={PhotoShowcase06} alt="" />
+					<Image width={500} height={500} src={PhotoInsta06} alt="" />
 					<Link href="/" className={style.overlay}>
 						<Image width={40} height={40} src={SocialInstagram} alt="" />
 					</Link>
 				</div>
 				<div className={style.insta_blk}>
-					<Image width={500} height={500} src={PhotoShowcase07} alt="" />
+					<Image width={500} height={500} src={PhotoInsta07} alt="" />
 					<Link href="/" className={style.overlay}>
 						<Image width={40} height={40} src={SocialInstagram} alt="" />
 					</Link>
 				</div>
 				<div className={style.insta_blk}>
-					<Image width={500} height={500} src={PhotoShowcase08} alt="" />
+					<Image width={500} height={500} src={PhotoInsta08} alt="" />
 					<Link href="/" className={style.overlay}>
 						<Image width={40} height={40} src={SocialInstagram} alt="" />
 					</Link>
 				</div>
 				<div className={style.insta_blk}>
-					<Image width={500} height={500} src={PhotoShowcase09} alt="" />
+					<Image width={500} height={500} src={PhotoInsta09} alt="" />
 					<Link href="/" className={style.overlay}>
 						<Image width={40} height={40} src={SocialInstagram} alt="" />
 					</Link>
